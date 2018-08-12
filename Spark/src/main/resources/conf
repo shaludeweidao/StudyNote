@@ -1,0 +1,5 @@
+#spark参数
+
+
+spark.sql.warehouse.dir
+=>用于指定hive 中的 derby的路径

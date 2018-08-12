@@ -1,0 +1,9 @@
+
+了解 Apache Spark UDF 功能的性能影响很重要。
+例如，Python UDF（比如上面的 CTOF 函数）会导致数据在执行器的 JVM 和运行 UDF 逻辑的 Python 解释器之间进行序列化操作；
+与 Java 或 Scala 中的 UDF 实现相比，大大降低了性能。缓解这种序列化瓶颈的解决方案如下：
+
+
+
+1、从 PySpark 访问 Hive UDF。 Java UDF实现可以由执行器JVM直接访问。
+2、在 PySpark 中访问在 Java 或 Scala 中实现的 UDF 的方法。正如上面的 Scala UDAF 实例。

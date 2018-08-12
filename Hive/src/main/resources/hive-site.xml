@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+	<!--此文件为安装hive的配置文件 -->
+
+
+	<!-- 连接mysql的url -->
+	<property>
+		<name>javax.jdo.option.ConnectionURL</name>
+		<value>jdbc:mysql://192.168.232.11:3306/hive</value>
+	</property>
+
+	<!-- 指定连接mysql的驱动类 -->
+	<property>
+		<name>javax.jdo.option.ConnectionDriverName</name>
+		<value>com.mysql.jdbc.Driver</value>
+	</property>
+
+	<!-- mysql的用户名 -->
+	<property>
+		<name>javax.jdo.option.ConnectionUserName</name>
+		<value>root</value>
+	</property>
+
+	<!-- mysql的密码 -->
+	<property>
+		<name>javax.jdo.option.ConnectionPassword</name>
+		<value>root</value>
+	</property>
+
+	<!-- 指定hive表存储的hdfs路径 -->
+	<property>
+		<name>hive.metastore.warehouse.dir</name>
+		<value>/user/hive/warehouse</value>
+	</property>
+</configuration>

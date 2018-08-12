@@ -1,0 +1,6 @@
+#记录遇到的bug
+
+
+java.lang.NoSuchMethodError: io.netty.buffer.PooledByteBufAllocator.metric()Lio/netty/buffer/PooledB
+=>https://blog.csdn.net/m0_37637511/article/details/80364391
+如果包冲突,就会报 NoSuchMethodError 错误, 这次是io.netty模块出现的冲突,哪个包冲突就导入哪个包进来

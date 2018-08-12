@@ -1,0 +1,845 @@
+[INFO] Scanning for projects...
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.pom
+Progress (1): 4.1/4.7 kBProgress (1): 4.7 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.pom (4.7 kB at 20 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-plugins/12/maven-plugins-12.pom
+Progress (1): 4.1/12 kBProgress (1): 5.3/12 kBProgress (1): 9.4/12 kBProgress (1): 12 kB                       Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-plugins/12/maven-plugins-12.pom (12 kB at 110 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-parent/9/maven-parent-9.pom
+Progress (1): 4.1/33 kBProgress (1): 7.7/33 kBProgress (1): 12/33 kB Progress (1): 14/33 kBProgress (1): 18/33 kBProgress (1): 22/33 kBProgress (1): 26/33 kBProgress (1): 27/33 kBProgress (1): 28/33 kBProgress (1): 32/33 kBProgress (1): 33 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-parent/9/maven-parent-9.pom (33 kB at 255 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.jar
+Progress (1): 2.4/24 kBProgress (1): 5.3/24 kBProgress (1): 8.2/24 kBProgress (1): 9.6/24 kBProgress (1): 11/24 kB Progress (1): 12/24 kBProgress (1): 14/24 kBProgress (1): 17/24 kBProgress (1): 20/24 kBProgress (1): 24 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-antrun-plugin/1.3/maven-antrun-plugin-1.3.jar (24 kB at 128 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.pom
+Progress (1): 1.0/15 kBProgress (1): 5.1/15 kBProgress (1): 9.2/15 kBProgress (1): 9.6/15 kBProgress (1): 14/15 kB Progress (1): 15 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.pom (15 kB at 116 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-plugins/16/maven-plugins-16.pom
+Progress (1): 1.0/13 kBProgress (1): 5.1/13 kBProgress (1): 9.2/13 kBProgress (1): 13 kB                       Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-plugins/16/maven-plugins-16.pom (13 kB at 55 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar
+Progress (1): 4.1/209 kBProgress (1): 7.7/209 kBProgress (1): 12/209 kB Progress (1): 15/209 kBProgress (1): 19/209 kBProgress (1): 24/209 kBProgress (1): 27/209 kBProgress (1): 31/209 kBProgress (1): 33/209 kBProgress (1): 37/209 kBProgress (1): 41/209 kBProgress (1): 43/209 kBProgress (1): 44/209 kBProgress (1): 48/209 kBProgress (1): 48/209 kBProgress (1): 50/209 kBProgress (1): 54/209 kBProgress (1): 58/209 kBProgress (1): 61/209 kBProgress (1): 64/209 kBProgress (1): 66/209 kBProgress (1): 70/209 kBProgress (1): 74/209 kBProgress (1): 78/209 kBProgress (1): 82/209 kBProgress (1): 83/209 kBProgress (1): 87/209 kBProgress (1): 91/209 kBProgress (1): 95/209 kBProgress (1): 99/209 kBProgress (1): 103/209 kBProgress (1): 103/209 kBProgress (1): 107/209 kBProgress (1): 111/209 kBProgress (1): 115/209 kBProgress (1): 119/209 kBProgress (1): 123/209 kBProgress (1): 123/209 kBProgress (1): 127/209 kBProgress (1): 132/209 kBProgress (1): 135/209 kBProgress (1): 139/209 kBProgress (1): 143/209 kBProgress (1): 144/209 kBProgress (1): 148/209 kBProgress (1): 152/209 kBProgress (1): 155/209 kBProgress (1): 159/209 kBProgress (1): 161/209 kBProgress (1): 165/209 kBProgress (1): 167/209 kBProgress (1): 171/209 kBProgress (1): 175/209 kBProgress (1): 178/209 kBProgress (1): 182/209 kBProgress (1): 186/209 kBProgress (1): 190/209 kBProgress (1): 194/209 kBProgress (1): 198/209 kBProgress (1): 198/209 kBProgress (1): 200/209 kBProgress (1): 201/209 kBProgress (1): 203/209 kBProgress (1): 207/209 kBProgress (1): 209 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar (209 kB at 478 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.pom
+Progress (1): 4.1/11 kBProgress (1): 7.7/11 kBProgress (1): 11 kB                       Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.pom (11 kB at 96 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar
+Progress (1): 1.0/153 kBProgress (1): 5.1/153 kBProgress (1): 9.2/153 kBProgress (1): 13/153 kB Progress (1): 14/153 kBProgress (1): 18/153 kBProgress (1): 22/153 kBProgress (1): 23/153 kBProgress (1): 27/153 kBProgress (1): 31/153 kBProgress (1): 35/153 kBProgress (1): 39/153 kBProgress (1): 40/153 kBProgress (1): 44/153 kBProgress (1): 48/153 kBProgress (1): 48/153 kBProgress (1): 50/153 kBProgress (1): 51/153 kBProgress (1): 53/153 kBProgress (1): 57/153 kBProgress (1): 57/153 kBProgress (1): 59/153 kBProgress (1): 63/153 kBProgress (1): 67/153 kBProgress (1): 70/153 kBProgress (1): 74/153 kBProgress (1): 78/153 kBProgress (1): 82/153 kBProgress (1): 83/153 kBProgress (1): 87/153 kBProgress (1): 91/153 kBProgress (1): 95/153 kBProgress (1): 97/153 kBProgress (1): 102/153 kBProgress (1): 106/153 kBProgress (1): 110/153 kBProgress (1): 110/153 kBProgress (1): 114/153 kBProgress (1): 118/153 kBProgress (1): 119/153 kBProgress (1): 123/153 kBProgress (1): 127/153 kBProgress (1): 128/153 kBProgress (1): 129/153 kBProgress (1): 131/153 kBProgress (1): 135/153 kBProgress (1): 138/153 kBProgress (1): 142/153 kBProgress (1): 146/153 kBProgress (1): 150/153 kBProgress (1): 152/153 kBProgress (1): 153 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar (153 kB at 995 kB/s)
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Spark 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ Spark ---
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-10/doxia-sink-api-1.0-alpha-10.pom
+Progress (1): 1.3 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-sink-api/1.0-alpha-10/doxia-sink-api-1.0-alpha-10.pom (1.3 kB at 8.6 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia/1.0-alpha-10/doxia-1.0-alpha-10.pom
+Progress (1): 4.1/9.2 kBProgress (1): 7.7/9.2 kBProgress (1): 9.2 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia/1.0-alpha-10/doxia-1.0-alpha-10.pom (9.2 kB at 32 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-parent/6/maven-parent-6.pom
+Progress (1): 4.1/20 kBProgress (1): 7.7/20 kBProgress (1): 12/20 kB Progress (1): 14/20 kBProgress (1): 18/20 kBProgress (1): 20 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-parent/6/maven-parent-6.pom (20 kB at 181 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom
+Progress (1): 4.1/4.2 kBProgress (1): 4.2 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.pom (4.2 kB at 39 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.pom
+Progress (1): 2.4 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.pom (2.4 kB at 17 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/1.5.7/plexus-utils-1.5.7.pom
+Progress (1): 4.1/8.1 kBProgress (1): 6.7/8.1 kBProgress (1): 8.1 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/1.5.7/plexus-utils-1.5.7.pom (8.1 kB at 37 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.pom
+Progress (1): 1.0/4.4 kBProgress (1): 4.4 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.pom (4.4 kB at 18 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-sitetools/1.0/doxia-sitetools-1.0.pom
+Progress (1): 1.0/9.6 kBProgress (1): 5.1/9.6 kBProgress (1): 5.3/9.6 kBProgress (1): 9.4/9.6 kBProgress (1): 9.6 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-sitetools/1.0/doxia-sitetools-1.0.pom (9.6 kB at 69 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.pom
+Progress (1): 1.0/3.2 kBProgress (1): 3.2 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.pom (3.2 kB at 17 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.pom
+Progress (1): 2.3 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.pom (2.3 kB at 9.2 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-modules/1.0/doxia-modules-1.0.pom
+Progress (1): 2.4 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-modules/1.0/doxia-modules-1.0.pom (2.4 kB at 22 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.pom
+Progress (1): 1.0/2.7 kBProgress (1): 2.7 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.pom (2.7 kB at 22 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.pom
+Progress (1): 2.2 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.pom (2.2 kB at 16 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.pom
+Progress (1): 1.6 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.pom (1.6 kB at 10 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom
+Progress (1): 4.1/5.9 kBProgress (1): 5.9 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.pom (5.9 kB at 46 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/11/maven-shared-components-11.pom
+Progress (1): 1.0/8.3 kBProgress (1): 5.1/8.3 kBProgress (1): 8.2/8.3 kBProgress (1): 8.3 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/11/maven-shared-components-11.pom (8.3 kB at 58 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.pom
+Progress (1): 2.4/9.1 kBProgress (1): 6.5/9.1 kBProgress (1): 8.2/9.1 kBProgress (1): 9.1 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.pom (9.1 kB at 74 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/xml-apis/xml-apis/2.0.2/xml-apis-2.0.2.pom
+Progress (1): 346 B                   Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/xml-apis/xml-apis/2.0.2/xml-apis-2.0.2.pom (346 B at 2.2 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.pom
+Progress (1): 1.0/3.4 kBProgress (1): 2.4/3.4 kBProgress (1): 3.4 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.pom (3.4 kB at 21 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom
+Progress (1): 2.4/3.1 kBProgress (1): 3.1 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom (3.1 kB at 26 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.pom
+Progress (1): 2.2 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.pom (2.2 kB at 15 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-components/1.2/plexus-components-1.2.pom
+Progress (1): 1.0/3.1 kBProgress (1): 3.1 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-components/1.2/plexus-components-1.2.pom (3.1 kB at 29 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.pom
+Progress (1): 3.1 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.pom (3.1 kB at 24 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom
+Progress (1): 3.9 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom (3.9 kB at 30 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom
+Progress (1): 4.1/8.4 kBProgress (1): 7.7/8.4 kBProgress (1): 8.4 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom (8.4 kB at 76 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom
+Progress (1): 4.1 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom (4.1 kB at 10 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom
+Progress (1): 2.7 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom (2.7 kB at 23 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-parent/7/maven-parent-7.pom
+Progress (1): 4.1/21 kBProgress (1): 7.7/21 kBProgress (1): 12/21 kB Progress (1): 14/21 kBProgress (1): 18/21 kBProgress (1): 21 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-parent/7/maven-parent-7.pom (21 kB at 162 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.pom
+Progress (1): 765 B                   Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.pom (765 B at 6.3 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven/2.0.2/maven-2.0.2.pom
+Progress (1): 1.0/13 kBProgress (1): 5.1/13 kBProgress (1): 9.2/13 kBProgress (1): 12/13 kB Progress (1): 13 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven/2.0.2/maven-2.0.2.pom (13 kB at 73 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom
+Progress (1): 767 B                   Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom (767 B at 6.0 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.pom
+Progress (1): 1.4 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.pom (1.4 kB at 9.8 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.pom
+Progress (1): 1.0/1.3 kBProgress (1): 1.3 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.pom (1.3 kB at 6.5 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom
+Progress (1): 588 B                   Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom (588 B at 5.3 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom
+Progress (1): 3.8/6.4 kBProgress (1): 6.4 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom (6.4 kB at 50 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/1.4.6/plexus-utils-1.4.6.pom
+Progress (1): 2.3 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/1.4.6/plexus-utils-1.4.6.pom (2.3 kB at 10 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.pom
+Progress (1): 4.1/5.2 kBProgress (1): 5.2 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.pom (5.2 kB at 43 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/asm/asm/3.3.1/asm-3.3.1.pom
+Progress (1): 266 B                   Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/asm/asm/3.3.1/asm-3.3.1.pom (266 B at 2.7 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+Progress (1): 4.1/4.3 kBProgress (1): 4.3 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom (4.3 kB at 33 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom
+Progress (1): 1.8 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom (1.8 kB at 13 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven/2.0.5/maven-2.0.5.pom
+Progress (1): 1.0/5.7 kBProgress (1): 5.1/5.7 kBProgress (1): 5.7 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven/2.0.5/maven-2.0.5.pom (5.7 kB at 10 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-settings/2.0.5/maven-settings-2.0.5.pom
+Progress (1): 1.7 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-settings/2.0.5/maven-settings-2.0.5.pom (1.7 kB at 5.9 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom
+Progress (1): 2.7 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom (2.7 kB at 19 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-profile/2.0.5/maven-profile-2.0.5.pom
+Progress (1): 1.7 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-profile/2.0.5/maven-profile-2.0.5.pom (1.7 kB at 15 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact-manager/2.0.5/maven-artifact-manager-2.0.5.pom
+Progress (1): 1.8 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact-manager/2.0.5/maven-artifact-manager-2.0.5.pom (1.8 kB at 15 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-repository-metadata/2.0.5/maven-repository-metadata-2.0.5.pom
+Progress (1): 1.5 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-repository-metadata/2.0.5/maven-repository-metadata-2.0.5.pom (1.5 kB at 14 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom
+Progress (1): 727 B                   Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom (727 B at 3.8 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.pom
+Progress (1): 4.1/6.8 kBProgress (1): 6.8 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.pom (6.8 kB at 61 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom
+Progress (1): 2.8 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-project/2.2.0/maven-project-2.2.0.pom (2.8 kB at 15 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven/2.2.0/maven-2.2.0.pom
+Progress (1): 4.1/22 kBProgress (1): 7.7/22 kBProgress (1): 12/22 kB Progress (1): 16/22 kBProgress (1): 20/22 kBProgress (1): 22 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven/2.2.0/maven-2.2.0.pom (22 kB at 187 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-settings/2.2.0/maven-settings-2.2.0.pom
+Progress (1): 2.2 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-settings/2.2.0/maven-settings-2.2.0.pom (2.2 kB at 17 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-model/2.2.0/maven-model-2.2.0.pom
+Progress (1): 3.2 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-model/2.2.0/maven-model-2.2.0.pom (3.2 kB at 23 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-profile/2.2.0/maven-profile-2.2.0.pom
+Progress (1): 2.2 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-profile/2.2.0/maven-profile-2.2.0.pom (2.2 kB at 19 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact-manager/2.2.0/maven-artifact-manager-2.2.0.pom
+Progress (1): 3.1 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact-manager/2.2.0/maven-artifact-manager-2.2.0.pom (3.1 kB at 29 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom
+Progress (1): 1.9 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-repository-metadata/2.2.0/maven-repository-metadata-2.2.0.pom (1.9 kB at 18 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom
+Progress (1): 1.6 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact/2.2.0/maven-artifact-2.2.0.pom (1.6 kB at 15 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom
+Progress (1): 1.9 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-plugin-registry/2.2.0/maven-plugin-registry-2.2.0.pom (1.9 kB at 15 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-common-artifact-filters/1.4/maven-common-artifact-filters-1.4.pom
+Progress (1): 3.8 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-common-artifact-filters/1.4/maven-common-artifact-filters-1.4.pom (3.8 kB at 30 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.8/maven-artifact-2.0.8.pom
+Progress (1): 1.6 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact/2.0.8/maven-artifact-2.0.8.pom (1.6 kB at 13 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven/2.0.8/maven-2.0.8.pom
+Progress (1): 4.1/12 kBProgress (1): 7.7/12 kBProgress (1): 12/12 kB Progress (1): 12 kB                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven/2.0.8/maven-2.0.8.pom (12 kB at 98 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-model/2.0.8/maven-model-2.0.8.pom
+Progress (1): 1.0/3.1 kBProgress (1): 3.1 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-model/2.0.8/maven-model-2.0.8.pom (3.1 kB at 21 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.pom
+Progress (1): 2.7 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-project/2.0.8/maven-project-2.0.8.pom (2.7 kB at 25 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-settings/2.0.8/maven-settings-2.0.8.pom
+Progress (1): 2.1 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-settings/2.0.8/maven-settings-2.0.8.pom (2.1 kB at 20 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.pom
+Progress (1): 2.0 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-profile/2.0.8/maven-profile-2.0.8.pom (2.0 kB at 18 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.pom
+Progress (1): 2.4/2.7 kBProgress (1): 2.7 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-artifact-manager/2.0.8/maven-artifact-manager-2.0.8.pom (2.7 kB at 24 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-repository-metadata/2.0.8/maven-repository-metadata-2.0.8.pom
+Progress (1): 1.9 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-repository-metadata/2.0.8/maven-repository-metadata-2.0.8.pom (1.9 kB at 18 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.pom
+Progress (1): 2.0 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-plugin-registry/2.0.8/maven-plugin-registry-2.0.8.pom (2.0 kB at 17 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.pom
+Progress (1): 1.5 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/maven-plugin-api/2.0.8/maven-plugin-api-2.0.8.pom (1.5 kB at 15 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom
+Progress (1): 4.0 kB                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/2.1/plexus-utils-2.1.pom (4.0 kB at 24 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.pom
+Progress (1): 4.1/5.1 kBProgress (1): 5.1 kB                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.pom (5.1 kB at 31 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/commons-digester/commons-digester/1.6/commons-digester-1.6.jar
+Progress (1): 1.0/55 kBProgress (1): 5.1/55 kBProgress (1): 9.2/55 kBProgress (1): 9.6/55 kBProgress (1): 11/55 kB Progress (1): 12/55 kBProgress (1): 14/55 kBProgress (2): 14/55 kB | 1.0/91 kBProgress (2): 14/55 kB | 5.1/91 kBProgress (2): 14/55 kB | 9.2/91 kBProgress (2): 14/55 kB | 11/91 kB Progress (2): 14/55 kB | 14/91 kBProgress (2): 17/55 kB | 14/91 kBProgress (2): 18/55 kB | 14/91 kBProgress (2): 20/55 kB | 14/91 kBProgress (2): 21/55 kB | 14/91 kBProgress (2): 24/55 kB | 14/91 kBProgress (2): 25/55 kB | 14/91 kBProgress (3): 25/55 kB | 14/91 kB | 1.0/168 kBProgress (3): 25/55 kB | 14/91 kB | 2.4/168 kBProgress (3): 25/55 kB | 14/91 kB | 5.3/168 kBProgress (3): 25/55 kB | 14/91 kB | 8.2/168 kBProgress (3): 25/55 kB | 14/91 kB | 11/168 kB Progress (3): 25/55 kB | 14/91 kB | 12/168 kBProgress (3): 25/55 kB | 14/91 kB | 14/168 kBProgress (3): 25/55 kB | 18/91 kB | 14/168 kBProgress (3): 25/55 kB | 22/91 kB | 14/168 kBProgress (3): 25/55 kB | 24/91 kB | 14/168 kBProgress (3): 25/55 kB | 25/91 kB | 14/168 kBProgress (3): 25/55 kB | 28/91 kB | 14/168 kBProgress (3): 25/55 kB | 30/91 kB | 14/168 kBProgress (3): 25/55 kB | 31/91 kB | 14/168 kBProgress (3): 25/55 kB | 33/91 kB | 14/168 kBProgress (3): 27/55 kB | 33/91 kB | 14/168 kBProgress (3): 27/55 kB | 37/91 kB | 14/168 kBProgress (3): 31/55 kB | 37/91 kB | 14/168 kBProgress (3): 31/55 kB | 37/91 kB | 14/168 kBProgress (3): 33/55 kB | 37/91 kB | 14/168 kBProgress (3): 34/55 kB | 37/91 kB | 14/168 kBProgress (3): 36/55 kB | 37/91 kB | 14/168 kBProgress (3): 37/55 kB | 37/91 kB | 14/168 kBProgress (3): 38/55 kB | 37/91 kB | 14/168 kBProgress (3): 40/55 kB | 37/91 kB | 14/168 kBProgress (3): 40/55 kB | 37/91 kB | 15/168 kBProgress (3): 40/55 kB | 37/91 kB | 18/168 kBProgress (3): 40/55 kB | 37/91 kB | 20/168 kBProgress (3): 40/55 kB | 37/91 kB | 21/168 kBProgress (3): 40/55 kB | 37/91 kB | 25/168 kBProgress (3): 40/55 kB | 37/91 kB | 29/168 kBProgress (3): 40/55 kB | 37/91 kB | 33/168 kBProgress (3): 40/55 kB | 37/91 kB | 34/168 kBProgress (3): 40/55 kB | 37/91 kB | 36/168 kBProgress (3): 40/55 kB | 41/91 kB | 36/168 kBProgress (3): 40/55 kB | 43/91 kB | 36/168 kBProgress (3): 40/55 kB | 44/91 kB | 36/168 kBProgress (3): 40/55 kB | 46/91 kB | 36/168 kBProgress (3): 40/55 kB | 47/91 kB | 36/168 kBProgress (3): 40/55 kB | 51/91 kB | 36/168 kBProgress (3): 40/55 kB | 53/91 kB | 36/168 kBProgress (3): 40/55 kB | 57/91 kB | 36/168 kBProgress (3): 40/55 kB | 59/91 kB | 36/168 kBProgress (3): 40/55 kB | 60/91 kB | 36/168 kBProgress (3): 40/55 kB | 61/91 kB | 36/168 kBProgress (3): 40/55 kB | 64/91 kB | 36/168 kBProgress (3): 40/55 kB | 66/91 kB | 36/168 kBProgress (3): 40/55 kB | 67/91 kB | 36/168 kBProgress (3): 40/55 kB | 71/91 kB | 36/168 kBProgress (3): 40/55 kB | 75/91 kB | 36/168 kBProgress (3): 40/55 kB | 76/91 kB | 36/168 kBProgress (3): 40/55 kB | 77/91 kB | 36/168 kBProgress (3): 40/55 kB | 77/91 kB | 37/168 kBProgress (3): 40/55 kB | 77/91 kB | 38/168 kBProgress (3): 40/55 kB | 77/91 kB | 41/168 kBProgress (3): 40/55 kB | 77/91 kB | 43/168 kBProgress (3): 43/55 kB | 77/91 kB | 43/168 kBProgress (3): 43/55 kB | 81/91 kB | 43/168 kBProgress (3): 44/55 kB | 81/91 kB | 43/168 kBProgress (3): 44/55 kB | 85/91 kB | 43/168 kBProgress (3): 44/55 kB | 86/91 kB | 43/168 kBProgress (3): 48/55 kB | 86/91 kB | 43/168 kBProgress (3): 52/55 kB | 86/91 kB | 43/168 kBProgress (3): 54/55 kB | 86/91 kB | 43/168 kBProgress (3): 55 kB | 86/91 kB | 43/168 kB   Progress (3): 55 kB | 86/91 kB | 46/168 kBProgress (3): 55 kB | 86/91 kB | 47/168 kBProgress (3): 55 kB | 86/91 kB | 48/168 kBProgress (3): 55 kB | 86/91 kB | 53/168 kBProgress (3): 55 kB | 86/91 kB | 54/168 kBProgress (4): 55 kB | 86/91 kB | 54/168 kB | 2.4/41 kBProgress (4): 55 kB | 86/91 kB | 54/168 kB | 6.5/41 kBProgress (4): 55 kB | 86/91 kB | 54/168 kB | 6.7/41 kBProgress (4): 55 kB | 86/91 kB | 54/168 kB | 11/41 kB Progress (4): 55 kB | 86/91 kB | 54/168 kB | 12/41 kBProgress (4): 55 kB | 87/91 kB | 54/168 kB | 12/41 kBProgress (4): 55 kB | 87/91 kB | 54/168 kB | 14/41 kBProgress (4): 55 kB | 89/91 kB | 54/168 kB | 14/41 kBProgress (4): 55 kB | 90/91 kB | 54/168 kB | 14/41 kBProgress (4): 55 kB | 91 kB | 54/168 kB | 14/41 kB   Progress (4): 55 kB | 91 kB | 57/168 kB | 14/41 kBProgress (4): 55 kB | 91 kB | 59/168 kB | 14/41 kBProgress (4): 55 kB | 91 kB | 61/168 kB | 14/41 kBProgress (4): 55 kB | 91 kB | 63/168 kB | 14/41 kBProgress (4): 55 kB | 91 kB | 67/168 kB | 14/41 kBProgress (4): 55 kB | 91 kB | 67/168 kB | 14/41 kBProgress (4): 55 kB | 91 kB | 70/168 kB | 14/41 kBProgress (4): 55 kB | 91 kB | 72/168 kB | 14/41 kBProgress (4): 55 kB | 91 kB | 76/168 kB | 14/41 kBProgress (4): 55 kB | 91 kB | 80/168 kB | 14/41 kBProgress (4): 55 kB | 91 kB | 82/168 kB | 14/41 kBProgress (4): 55 kB | 91 kB | 83/168 kB | 14/41 kBProgress (4): 55 kB | 91 kB | 83/168 kB | 17/41 kBProgress (4): 55 kB | 91 kB | 83/168 kB | 18/41 kBProgress (4): 55 kB | 91 kB | 86/168 kB | 18/41 kBProgress (4): 55 kB | 91 kB | 87/168 kB | 18/41 kBProgress (4): 55 kB | 91 kB | 89/168 kB | 18/41 kBProgress (4): 55 kB | 91 kB | 90/168 kB | 18/41 kBProgress (4): 55 kB | 91 kB | 93/168 kB | 18/41 kBProgress (4): 55 kB | 91 kB | 93/168 kB | 20/41 kBProgress (4): 55 kB | 91 kB | 97/168 kB | 20/41 kBProgress (4): 55 kB | 91 kB | 97/168 kB | 20/41 kBProgress (4): 55 kB | 91 kB | 97/168 kB | 24/41 kBProgress (4): 55 kB | 91 kB | 97/168 kB | 28/41 kBProgress (4): 55 kB | 91 kB | 97/168 kB | 31/41 kBProgress (4): 55 kB | 91 kB | 97/168 kB | 35/41 kBProgress (4): 55 kB | 91 kB | 97/168 kB | 37/41 kBProgress (4): 55 kB | 91 kB | 97/168 kB | 38/41 kBProgress (4): 55 kB | 91 kB | 97/168 kB | 41 kB   Progress (4): 55 kB | 91 kB | 102/168 kB | 41 kBProgress (4): 55 kB | 91 kB | 105/168 kB | 41 kBProgress (4): 55 kB | 91 kB | 109/168 kB | 41 kBProgress (4): 55 kB | 91 kB | 110/168 kB | 41 kBProgress (4): 55 kB | 91 kB | 113/168 kB | 41 kBProgress (4): 55 kB | 91 kB | 117/168 kB | 41 kBProgress (4): 55 kB | 91 kB | 119/168 kB | 41 kBProgress (4): 55 kB | 91 kB | 123/168 kB | 41 kBProgress (4): 55 kB | 91 kB | 126/168 kB | 41 kBProgress (4): 55 kB | 91 kB | 130/168 kB | 41 kBProgress (4): 55 kB | 91 kB | 133/168 kB | 41 kBProgress (4): 55 kB | 91 kB | 135/168 kB | 41 kBProgress (5): 55 kB | 91 kB | 135/168 kB | 41 kB | 2.4/21 kBProgress (5): 55 kB | 91 kB | 135/168 kB | 41 kB | 3.8/21 kBProgress (5): 55 kB | 91 kB | 135/168 kB | 41 kB | 6.7/21 kBProgress (5): 55 kB | 91 kB | 138/168 kB | 41 kB | 6.7/21 kBProgress (5): 55 kB | 91 kB | 138/168 kB | 41 kB | 11/21 kB Progress (5): 55 kB | 91 kB | 139/168 kB | 41 kB | 11/21 kBProgress (5): 55 kB | 91 kB | 139/168 kB | 41 kB | 14/21 kBProgress (5): 55 kB | 91 kB | 143/168 kB | 41 kB | 14/21 kBProgress (5): 55 kB | 91 kB | 144/168 kB | 41 kB | 14/21 kBProgress (5): 55 kB | 91 kB | 148/168 kB | 41 kB | 14/21 kBProgress (5): 55 kB | 91 kB | 151/168 kB | 41 kB | 14/21 kBProgress (5): 55 kB | 91 kB | 154/168 kB | 41 kB | 14/21 kBProgress (5): 55 kB | 91 kB | 155/168 kB | 41 kB | 14/21 kBProgress (5): 55 kB | 91 kB | 159/168 kB | 41 kB | 14/21 kBProgress (5): 55 kB | 91 kB | 159/168 kB | 41 kB | 14/21 kBProgress (5): 55 kB | 91 kB | 163/168 kB | 41 kB | 14/21 kBProgress (5): 55 kB | 91 kB | 165/168 kB | 41 kB | 14/21 kBProgress (5): 55 kB | 91 kB | 167/168 kB | 41 kB | 14/21 kBProgress (5): 55 kB | 91 kB | 168/168 kB | 41 kB | 14/21 kBProgress (5): 55 kB | 91 kB | 168 kB | 41 kB | 14/21 kB    Progress (5): 55 kB | 91 kB | 168 kB | 41 kB | 17/21 kBProgress (5): 55 kB | 91 kB | 168 kB | 41 kB | 21 kB                                                       Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar (55 kB at 310 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/commons-validator/commons-validator/1.2.0/commons-validator-1.2.0.jar (91 kB at 472 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar
+Progress (4): 168 kB | 41 kB | 21 kB | 4.1/109 kBProgress (4): 168 kB | 41 kB | 21 kB | 7.7/109 kBProgress (4): 168 kB | 41 kB | 21 kB | 12/109 kB Progress (4): 168 kB | 41 kB | 21 kB | 16/109 kBProgress (4): 168 kB | 41 kB | 21 kB | 17/109 kBProgress (4): 168 kB | 41 kB | 21 kB | 20/109 kB                                                Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/commons-digester/commons-digester/1.6/commons-digester-1.6.jar (168 kB at 720 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.jar
+Progress (3): 41 kB | 21 kB | 21/109 kBProgress (3): 41 kB | 21 kB | 25/109 kBProgress (3): 41 kB | 21 kB | 28/109 kBProgress (3): 41 kB | 21 kB | 30/109 kBProgress (3): 41 kB | 21 kB | 31/109 kBProgress (3): 41 kB | 21 kB | 33/109 kBProgress (3): 41 kB | 21 kB | 37/109 kBProgress (3): 41 kB | 21 kB | 41/109 kBProgress (3): 41 kB | 21 kB | 43/109 kBProgress (3): 41 kB | 21 kB | 46/109 kBProgress (3): 41 kB | 21 kB | 48/109 kBProgress (3): 41 kB | 21 kB | 50/109 kBProgress (3): 41 kB | 21 kB | 54/109 kBProgress (3): 41 kB | 21 kB | 57/109 kBProgress (3): 41 kB | 21 kB | 59/109 kBProgress (3): 41 kB | 21 kB | 60/109 kBProgress (3): 41 kB | 21 kB | 64/109 kBProgress (3): 41 kB | 21 kB | 67/109 kBProgress (3): 41 kB | 21 kB | 69/109 kBProgress (3): 41 kB | 21 kB | 72/109 kBProgress (3): 41 kB | 21 kB | 76/109 kBProgress (3): 41 kB | 21 kB | 76/109 kBProgress (3): 41 kB | 21 kB | 79/109 kBProgress (3): 41 kB | 21 kB | 80/109 kBProgress (4): 41 kB | 21 kB | 80/109 kB | 1.0/10 kBProgress (4): 41 kB | 21 kB | 80/109 kB | 3.8/10 kBProgress (4): 41 kB | 21 kB | 80/109 kB | 7.9/10 kBProgress (4): 41 kB | 21 kB | 80/109 kB | 8.2/10 kBProgress (4): 41 kB | 21 kB | 80/109 kB | 10 kB    Progress (4): 41 kB | 21 kB | 82/109 kB | 10 kBProgress (4): 41 kB | 21 kB | 83/109 kB | 10 kBProgress (4): 41 kB | 21 kB | 84/109 kB | 10 kBProgress (4): 41 kB | 21 kB | 89/109 kB | 10 kBProgress (4): 41 kB | 21 kB | 92/109 kB | 10 kBProgress (4): 41 kB | 21 kB | 95/109 kB | 10 kBProgress (4): 41 kB | 21 kB | 96/109 kB | 10 kBProgress (4): 41 kB | 21 kB | 100/109 kB | 10 kBProgress (4): 41 kB | 21 kB | 100/109 kB | 10 kBProgress (4): 41 kB | 21 kB | 104/109 kB | 10 kBProgress (4): 41 kB | 21 kB | 106/109 kB | 10 kBProgress (4): 41 kB | 21 kB | 109 kB | 10 kB    Progress (5): 41 kB | 21 kB | 109 kB | 10 kB | 4.1/47 kBProgress (5): 41 kB | 21 kB | 109 kB | 10 kB | 5.3/47 kBProgress (5): 41 kB | 21 kB | 109 kB | 10 kB | 9.4/47 kBProgress (5): 41 kB | 21 kB | 109 kB | 10 kB | 13/47 kB Progress (5): 41 kB | 21 kB | 109 kB | 10 kB | 14/47 kBProgress (5): 41 kB | 21 kB | 109 kB | 10 kB | 15/47 kBProgress (5): 41 kB | 21 kB | 109 kB | 10 kB | 19/47 kBProgress (5): 41 kB | 21 kB | 109 kB | 10 kB | 24/47 kBProgress (5): 41 kB | 21 kB | 109 kB | 10 kB | 27/47 kBProgress (5): 41 kB | 21 kB | 109 kB | 10 kB | 28/47 kBProgress (5): 41 kB | 21 kB | 109 kB | 10 kB | 32/47 kBProgress (5): 41 kB | 21 kB | 109 kB | 10 kB | 37/47 kBProgress (5): 41 kB | 21 kB | 109 kB | 10 kB | 40/47 kBProgress (5): 41 kB | 21 kB | 109 kB | 10 kB | 41/47 kBProgress (5): 41 kB | 21 kB | 109 kB | 10 kB | 45/47 kBProgress (5): 41 kB | 21 kB | 109 kB | 10 kB | 47 kB                                                       Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/reporting/maven-reporting-impl/2.0.5/maven-reporting-impl-2.0.5.jar (21 kB at 66 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar (109 kB at 327 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.jar
+Progress (4): 41 kB | 10 kB | 47 kB | 2.4/7.7 kBProgress (4): 41 kB | 10 kB | 47 kB | 3.8/7.7 kBProgress (4): 41 kB | 10 kB | 47 kB | 7.7 kB                                                Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar (10 kB at 27 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.jar
+Progress (4): 41 kB | 47 kB | 7.7 kB | 4.1/49 kBProgress (4): 41 kB | 47 kB | 7.7 kB | 5.3/49 kBProgress (4): 41 kB | 47 kB | 7.7 kB | 9.4/49 kBProgress (4): 41 kB | 47 kB | 7.7 kB | 13/49 kB Progress (4): 41 kB | 47 kB | 7.7 kB | 15/49 kBProgress (4): 41 kB | 47 kB | 7.7 kB | 19/49 kBProgress (4): 41 kB | 47 kB | 7.7 kB | 20/49 kB                                               Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-doxia-tools/1.0.2/maven-doxia-tools-1.0.2.jar (41 kB at 102 kB/s)
+Progress (3): 47 kB | 7.7 kB | 24/49 kB                                       Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.jar
+Progress (3): 47 kB | 7.7 kB | 24/49 kBProgress (3): 47 kB | 7.7 kB | 27/49 kBProgress (3): 47 kB | 7.7 kB | 31/49 kBProgress (3): 47 kB | 7.7 kB | 34/49 kBProgress (3): 47 kB | 7.7 kB | 38/49 kBProgress (3): 47 kB | 7.7 kB | 42/49 kBProgress (3): 47 kB | 7.7 kB | 46/49 kBProgress (3): 47 kB | 7.7 kB | 49 kB   Progress (4): 47 kB | 7.7 kB | 49 kB | 4.1/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 7.7/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 12/47 kB Progress (4): 47 kB | 7.7 kB | 49 kB | 14/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 18/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 22/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 25/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 27/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 28/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 30/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 34/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 34/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 37/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 40/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 41/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 43/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 44/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 46/47 kBProgress (4): 47 kB | 7.7 kB | 49 kB | 47 kB                                               Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar (7.7 kB at 17 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.jar
+Progress (4): 47 kB | 49 kB | 47 kB | 3.8/19 kBProgress (4): 47 kB | 49 kB | 47 kB | 7.9/19 kBProgress (4): 47 kB | 49 kB | 47 kB | 9.6/19 kBProgress (4): 47 kB | 49 kB | 47 kB | 11/19 kB Progress (4): 47 kB | 49 kB | 47 kB | 12/19 kBProgress (4): 47 kB | 49 kB | 47 kB | 17/19 kBProgress (4): 47 kB | 49 kB | 47 kB | 19 kB   Progress (5): 47 kB | 49 kB | 47 kB | 19 kB | 1.0/28 kBProgress (5): 47 kB | 49 kB | 47 kB | 19 kB | 5.1/28 kBProgress (5): 47 kB | 49 kB | 47 kB | 19 kB | 9.2/28 kBProgress (5): 47 kB | 49 kB | 47 kB | 19 kB | 13/28 kB Progress (5): 47 kB | 49 kB | 47 kB | 19 kB | 15/28 kBProgress (5): 47 kB | 49 kB | 47 kB | 19 kB | 19/28 kBProgress (5): 47 kB | 49 kB | 47 kB | 19 kB | 24/28 kBProgress (5): 47 kB | 49 kB | 47 kB | 19 kB | 28/28 kBProgress (5): 47 kB | 49 kB | 47 kB | 19 kB | 28 kB                                                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.jar (47 kB at 86 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.jar
+Progress (5): 49 kB | 47 kB | 19 kB | 28 kB | 4.1/22 kBProgress (5): 49 kB | 47 kB | 19 kB | 28 kB | 7.7/22 kBProgress (5): 49 kB | 47 kB | 19 kB | 28 kB | 12/22 kB Progress (5): 49 kB | 47 kB | 19 kB | 28 kB | 15/22 kBProgress (5): 49 kB | 47 kB | 19 kB | 28 kB | 17/22 kB                                                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.jar (19 kB at 31 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.jar
+Progress (4): 49 kB | 47 kB | 28 kB | 18/22 kBProgress (4): 49 kB | 47 kB | 28 kB | 20/22 kBProgress (4): 49 kB | 47 kB | 28 kB | 21/22 kBProgress (4): 49 kB | 47 kB | 28 kB | 22 kB                                              Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.jar (49 kB at 78 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.jar (47 kB at 70 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar
+Progress (3): 28 kB | 22 kB | 2.4/186 kBProgress (3): 28 kB | 22 kB | 3.8/186 kBProgress (3): 28 kB | 22 kB | 7.9/186 kBProgress (3): 28 kB | 22 kB | 9.6/186 kBProgress (3): 28 kB | 22 kB | 12/186 kB Progress (3): 28 kB | 22 kB | 14/186 kBProgress (4): 28 kB | 22 kB | 14/186 kB | 1.0/232 kBProgress (4): 28 kB | 22 kB | 14/186 kB | 5.1/232 kBProgress (4): 28 kB | 22 kB | 14/186 kB | 5.3/232 kB                                                    Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.jar (28 kB at 40 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar
+Progress (3): 22 kB | 14/186 kB | 6.7/232 kBProgress (3): 22 kB | 14/186 kB | 9.6/232 kBProgress (3): 22 kB | 14/186 kB | 11/232 kB Progress (3): 22 kB | 14/186 kB | 15/232 kBProgress (3): 22 kB | 14/186 kB | 17/232 kBProgress (3): 22 kB | 14/186 kB | 18/232 kBProgress (3): 22 kB | 14/186 kB | 21/232 kBProgress (3): 22 kB | 14/186 kB | 23/232 kBProgress (3): 22 kB | 14/186 kB | 27/232 kBProgress (3): 22 kB | 14/186 kB | 31/232 kBProgress (3): 22 kB | 14/186 kB | 35/232 kBProgress (3): 22 kB | 14/186 kB | 36/232 kBProgress (3): 22 kB | 15/186 kB | 36/232 kBProgress (3): 22 kB | 15/186 kB | 38/232 kBProgress (3): 22 kB | 17/186 kB | 38/232 kBProgress (3): 22 kB | 18/186 kB | 38/232 kBProgress (3): 22 kB | 21/186 kB | 38/232 kBProgress (3): 22 kB | 25/186 kB | 38/232 kBProgress (3): 22 kB | 25/186 kB | 38/232 kBProgress (3): 22 kB | 27/186 kB | 38/232 kBProgress (3): 22 kB | 28/186 kB | 38/232 kBProgress (3): 22 kB | 30/186 kB | 38/232 kBProgress (3): 22 kB | 34/186 kB | 38/232 kBProgress (3): 22 kB | 38/186 kB | 38/232 kBProgress (3): 22 kB | 42/186 kB | 38/232 kBProgress (3): 22 kB | 43/186 kB | 38/232 kBProgress (3): 22 kB | 43/186 kB | 42/232 kBProgress (3): 22 kB | 43/186 kB | 44/232 kBProgress (3): 22 kB | 43/186 kB | 46/232 kBProgress (3): 22 kB | 43/186 kB | 47/232 kBProgress (3): 22 kB | 43/186 kB | 48/232 kBProgress (3): 22 kB | 43/186 kB | 50/232 kBProgress (3): 22 kB | 43/186 kB | 54/232 kBProgress (3): 22 kB | 43/186 kB | 57/232 kBProgress (3): 22 kB | 43/186 kB | 59/232 kBProgress (3): 22 kB | 43/186 kB | 60/232 kBProgress (3): 22 kB | 43/186 kB | 61/232 kBProgress (3): 22 kB | 43/186 kB | 63/232 kBProgress (3): 22 kB | 43/186 kB | 67/232 kBProgress (3): 22 kB | 43/186 kB | 71/232 kBProgress (3): 22 kB | 43/186 kB | 75/232 kBProgress (3): 22 kB | 43/186 kB | 76/232 kBProgress (3): 22 kB | 47/186 kB | 76/232 kBProgress (3): 22 kB | 51/186 kB | 76/232 kBProgress (3): 22 kB | 54/186 kB | 76/232 kBProgress (3): 22 kB | 56/186 kB | 76/232 kBProgress (3): 22 kB | 60/186 kB | 76/232 kBProgress (3): 22 kB | 63/186 kB | 76/232 kBProgress (3): 22 kB | 63/186 kB | 80/232 kBProgress (3): 22 kB | 63/186 kB | 80/232 kBProgress (3): 22 kB | 64/186 kB | 80/232 kBProgress (3): 22 kB | 68/186 kB | 80/232 kBProgress (3): 22 kB | 69/186 kB | 80/232 kBProgress (3): 22 kB | 70/186 kB | 80/232 kBProgress (3): 22 kB | 72/186 kB | 80/232 kBProgress (3): 22 kB | 73/186 kB | 80/232 kBProgress (3): 22 kB | 74/186 kB | 80/232 kBProgress (3): 22 kB | 77/186 kB | 80/232 kBProgress (3): 22 kB | 79/186 kB | 80/232 kBProgress (3): 22 kB | 83/186 kB | 80/232 kBProgress (3): 22 kB | 87/186 kB | 80/232 kBProgress (3): 22 kB | 89/186 kB | 80/232 kBProgress (3): 22 kB | 90/186 kB | 80/232 kBProgress (3): 22 kB | 94/186 kB | 80/232 kBProgress (3): 22 kB | 94/186 kB | 82/232 kBProgress (3): 22 kB | 98/186 kB | 82/232 kBProgress (3): 22 kB | 98/186 kB | 83/232 kBProgress (3): 22 kB | 100/186 kB | 83/232 kBProgress (3): 22 kB | 100/186 kB | 87/232 kBProgress (3): 22 kB | 100/186 kB | 87/232 kBProgress (3): 22 kB | 100/186 kB | 90/232 kBProgress (3): 22 kB | 100/186 kB | 92/232 kBProgress (3): 22 kB | 100/186 kB | 93/232 kBProgress (3): 22 kB | 100/186 kB | 97/232 kBProgress (3): 22 kB | 100/186 kB | 101/232 kBProgress (3): 22 kB | 100/186 kB | 105/232 kBProgress (3): 22 kB | 100/186 kB | 106/232 kBProgress (3): 22 kB | 100/186 kB | 108/232 kBProgress (3): 22 kB | 100/186 kB | 112/232 kBProgress (3): 22 kB | 100/186 kB | 116/232 kBProgress (3): 22 kB | 100/186 kB | 118/232 kBProgress (3): 22 kB | 102/186 kB | 118/232 kBProgress (3): 22 kB | 106/186 kB | 118/232 kBProgress (3): 22 kB | 110/186 kB | 118/232 kBProgress (3): 22 kB | 114/186 kB | 118/232 kBProgress (3): 22 kB | 116/186 kB | 118/232 kBProgress (3): 22 kB | 118/186 kB | 118/232 kBProgress (4): 22 kB | 118/186 kB | 118/232 kB | 3.8/38 kBProgress (4): 22 kB | 118/186 kB | 118/232 kB | 7.9/38 kBProgress (4): 22 kB | 118/186 kB | 118/232 kB | 9.6/38 kBProgress (4): 22 kB | 118/186 kB | 118/232 kB | 14/38 kB Progress (4): 22 kB | 118/186 kB | 118/232 kB | 18/38 kBProgress (4): 22 kB | 118/186 kB | 118/232 kB | 22/38 kBProgress (4): 22 kB | 118/186 kB | 118/232 kB | 24/38 kBProgress (4): 22 kB | 118/186 kB | 118/232 kB | 28/38 kBProgress (4): 22 kB | 118/186 kB | 118/232 kB | 30/38 kBProgress (4): 22 kB | 118/186 kB | 118/232 kB | 31/38 kBProgress (4): 22 kB | 118/186 kB | 118/232 kB | 34/38 kBProgress (4): 22 kB | 118/186 kB | 118/232 kB | 36/38 kBProgress (4): 22 kB | 118/186 kB | 118/232 kB | 38 kB   Progress (4): 22 kB | 122/186 kB | 118/232 kB | 38 kBProgress (4): 22 kB | 122/186 kB | 120/232 kB | 38 kBProgress (4): 22 kB | 122/186 kB | 122/232 kB | 38 kBProgress (4): 22 kB | 123/186 kB | 122/232 kB | 38 kBProgress (4): 22 kB | 123/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 126/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 129/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 131/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 135/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 139/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 142/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 143/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 145/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 146/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 148/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 149/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 151/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 155/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 159/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 162/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 165/186 kB | 123/232 kB | 38 kBProgress (4): 22 kB | 165/186 kB | 125/232 kB | 38 kB                                                     Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.jar (22 kB at 28 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar
+Progress (3): 165/186 kB | 129/232 kB | 38 kBProgress (3): 165/186 kB | 133/232 kB | 38 kBProgress (3): 165/186 kB | 135/232 kB | 38 kBProgress (3): 165/186 kB | 136/232 kB | 38 kBProgress (3): 165/186 kB | 139/232 kB | 38 kBProgress (3): 165/186 kB | 143/232 kB | 38 kBProgress (3): 165/186 kB | 147/232 kB | 38 kBProgress (3): 165/186 kB | 149/232 kB | 38 kBProgress (3): 165/186 kB | 153/232 kB | 38 kBProgress (3): 165/186 kB | 157/232 kB | 38 kBProgress (3): 165/186 kB | 162/232 kB | 38 kBProgress (3): 165/186 kB | 162/232 kB | 38 kBProgress (3): 165/186 kB | 164/232 kB | 38 kBProgress (3): 166/186 kB | 164/232 kB | 38 kBProgress (3): 168/186 kB | 164/232 kB | 38 kBProgress (3): 169/186 kB | 164/232 kB | 38 kBProgress (3): 171/186 kB | 164/232 kB | 38 kBProgress (3): 174/186 kB | 164/232 kB | 38 kBProgress (3): 175/186 kB | 164/232 kB | 38 kBProgress (3): 177/186 kB | 164/232 kB | 38 kBProgress (3): 178/186 kB | 164/232 kB | 38 kBProgress (3): 182/186 kB | 164/232 kB | 38 kBProgress (3): 182/186 kB | 168/232 kB | 38 kBProgress (3): 186/186 kB | 168/232 kB | 38 kBProgress (3): 186/186 kB | 168/232 kB | 38 kBProgress (3): 186 kB | 168/232 kB | 38 kB    Progress (3): 186 kB | 169/232 kB | 38 kBProgress (3): 186 kB | 171/232 kB | 38 kBProgress (3): 186 kB | 175/232 kB | 38 kBProgress (3): 186 kB | 179/232 kB | 38 kBProgress (3): 186 kB | 181/232 kB | 38 kBProgress (3): 186 kB | 184/232 kB | 38 kBProgress (3): 186 kB | 188/232 kB | 38 kBProgress (3): 186 kB | 191/232 kB | 38 kBProgress (3): 186 kB | 195/232 kB | 38 kBProgress (3): 186 kB | 195/232 kB | 38 kBProgress (3): 186 kB | 197/232 kB | 38 kBProgress (3): 186 kB | 200/232 kB | 38 kBProgress (3): 186 kB | 204/232 kB | 38 kBProgress (3): 186 kB | 208/232 kB | 38 kBProgress (3): 186 kB | 211/232 kB | 38 kBProgress (3): 186 kB | 213/232 kB | 38 kBProgress (3): 186 kB | 214/232 kB | 38 kBProgress (3): 186 kB | 218/232 kB | 38 kBProgress (3): 186 kB | 222/232 kB | 38 kBProgress (3): 186 kB | 226/232 kB | 38 kBProgress (3): 186 kB | 227/232 kB | 38 kBProgress (3): 186 kB | 231/232 kB | 38 kBProgress (3): 186 kB | 232 kB | 38 kB    Progress (4): 186 kB | 232 kB | 38 kB | 1.0/43 kBProgress (4): 186 kB | 232 kB | 38 kB | 5.1/43 kBProgress (4): 186 kB | 232 kB | 38 kB | 6.7/43 kBProgress (4): 186 kB | 232 kB | 38 kB | 11/43 kB Progress (4): 186 kB | 232 kB | 38 kB | 15/43 kBProgress (4): 186 kB | 232 kB | 38 kB | 19/43 kBProgress (4): 186 kB | 232 kB | 38 kB | 21/43 kBProgress (4): 186 kB | 232 kB | 38 kB | 24/43 kBProgress (4): 186 kB | 232 kB | 38 kB | 28/43 kBProgress (4): 186 kB | 232 kB | 38 kB | 32/43 kBProgress (4): 186 kB | 232 kB | 38 kB | 36/43 kBProgress (4): 186 kB | 232 kB | 38 kB | 37/43 kBProgress (4): 186 kB | 232 kB | 38 kB | 38/43 kBProgress (4): 186 kB | 232 kB | 38 kB | 40/43 kBProgress (4): 186 kB | 232 kB | 38 kB | 41/43 kBProgress (4): 186 kB | 232 kB | 38 kB | 43 kB   Progress (5): 186 kB | 232 kB | 38 kB | 43 kB | 4.1/39 kBProgress (5): 186 kB | 232 kB | 38 kB | 43 kB | 7.7/39 kBProgress (5): 186 kB | 232 kB | 38 kB | 43 kB | 12/39 kB Progress (5): 186 kB | 232 kB | 38 kB | 43 kB | 12/39 kBProgress (5): 186 kB | 232 kB | 38 kB | 43 kB | 17/39 kBProgress (5): 186 kB | 232 kB | 38 kB | 43 kB | 17/39 kBProgress (5): 186 kB | 232 kB | 38 kB | 43 kB | 21/39 kBProgress (5): 186 kB | 232 kB | 38 kB | 43 kB | 21/39 kBProgress (5): 186 kB | 232 kB | 38 kB | 43 kB | 25/39 kBProgress (5): 186 kB | 232 kB | 38 kB | 43 kB | 25/39 kBProgress (5): 186 kB | 232 kB | 38 kB | 43 kB | 30/39 kBProgress (5): 186 kB | 232 kB | 38 kB | 43 kB | 34/39 kBProgress (5): 186 kB | 232 kB | 38 kB | 43 kB | 37/39 kBProgress (5): 186 kB | 232 kB | 38 kB | 43 kB | 39 kB                                                        Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-archiver/2.3/plexus-archiver-2.3.jar (186 kB at 211 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.jar
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-utils/3.0.9/plexus-utils-3.0.9.jar (232 kB at 255 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.jar
+Progress (4): 38 kB | 43 kB | 39 kB | 2.4/58 kBProgress (4): 38 kB | 43 kB | 39 kB | 3.8/58 kBProgress (4): 38 kB | 43 kB | 39 kB | 6.7/58 kBProgress (4): 38 kB | 43 kB | 39 kB | 8.2/58 kBProgress (4): 38 kB | 43 kB | 39 kB | 12/58 kB Progress (4): 38 kB | 43 kB | 39 kB | 15/58 kB                                              Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar (38 kB at 40 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/asm/asm/3.3.1/asm-3.3.1.jar
+Progress (3): 43 kB | 39 kB | 17/58 kBProgress (3): 43 kB | 39 kB | 21/58 kBProgress (3): 43 kB | 39 kB | 23/58 kBProgress (3): 43 kB | 39 kB | 27/58 kBProgress (3): 43 kB | 39 kB | 27/58 kBProgress (3): 43 kB | 39 kB | 30/58 kBProgress (3): 43 kB | 39 kB | 34/58 kBProgress (3): 43 kB | 39 kB | 36/58 kBProgress (3): 43 kB | 39 kB | 38/58 kBProgress (3): 43 kB | 39 kB | 41/58 kBProgress (3): 43 kB | 39 kB | 45/58 kBProgress (3): 43 kB | 39 kB | 46/58 kBProgress (3): 43 kB | 39 kB | 50/58 kBProgress (3): 43 kB | 39 kB | 50/58 kBProgress (3): 43 kB | 39 kB | 53/58 kBProgress (3): 43 kB | 39 kB | 56/58 kBProgress (3): 43 kB | 39 kB | 58 kB   Progress (4): 43 kB | 39 kB | 58 kB | 4.1/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 5.3/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 6.7/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 8.2/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 9.6/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 11/44 kB Progress (4): 43 kB | 39 kB | 58 kB | 12/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 15/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 19/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 24/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 28/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 28/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 30/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 34/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 38/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 42/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 43/44 kBProgress (4): 43 kB | 39 kB | 58 kB | 44 kB                                              Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/codehaus/plexus/plexus-io/2.0.6/plexus-io-2.0.6.jar (58 kB at 56 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.jar
+Progress (4): 43 kB | 39 kB | 44 kB | 1.0/27 kBProgress (4): 43 kB | 39 kB | 44 kB | 5.1/27 kBProgress (4): 43 kB | 39 kB | 44 kB | 5.3/27 kBProgress (4): 43 kB | 39 kB | 44 kB | 8.2/27 kBProgress (4): 43 kB | 39 kB | 44 kB | 12/27 kB Progress (4): 43 kB | 39 kB | 44 kB | 14/27 kBProgress (4): 43 kB | 39 kB | 44 kB | 15/27 kBProgress (4): 43 kB | 39 kB | 44 kB | 18/27 kBProgress (4): 43 kB | 39 kB | 44 kB | 20/27 kBProgress (4): 43 kB | 39 kB | 44 kB | 21/27 kBProgress (4): 43 kB | 39 kB | 44 kB | 24/27 kBProgress (4): 43 kB | 39 kB | 44 kB | 25/27 kBProgress (4): 43 kB | 39 kB | 44 kB | 27/27 kBProgress (4): 43 kB | 39 kB | 44 kB | 27 kB                                              Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/asm/asm/3.3.1/asm-3.3.1.jar (44 kB at 41 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-common-artifact-filters/1.4/maven-common-artifact-filters-1.4.jar
+Progress (4): 43 kB | 39 kB | 27 kB | 4.1/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 7.7/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 12/60 kB Progress (4): 43 kB | 39 kB | 27 kB | 16/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 18/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 21/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 24/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 25/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 27/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 31/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 33/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 36/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 37/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 41/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 45/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 49/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 50/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 51/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 53/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 56/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 57/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 59/60 kBProgress (4): 43 kB | 39 kB | 27 kB | 60 kB                                              Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar (39 kB at 36 kB/s)
+Downloading from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.jar
+Progress (4): 43 kB | 27 kB | 60 kB | 4.1/32 kBProgress (4): 43 kB | 27 kB | 60 kB | 7.7/32 kBProgress (4): 43 kB | 27 kB | 60 kB | 12/32 kB Progress (4): 43 kB | 27 kB | 60 kB | 15/32 kBProgress (4): 43 kB | 27 kB | 60 kB | 19/32 kBProgress (4): 43 kB | 27 kB | 60 kB | 24/32 kBProgress (4): 43 kB | 27 kB | 60 kB | 28/32 kBProgress (4): 43 kB | 27 kB | 60 kB | 28/32 kBProgress (4): 43 kB | 27 kB | 60 kB | 32 kB                                              Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar (43 kB at 37 kB/s)
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.jar (60 kB at 52 kB/s)
+Progress (3): 27 kB | 32 kB | 1.0/29 kBProgress (3): 27 kB | 32 kB | 5.1/29 kBProgress (3): 27 kB | 32 kB | 9.2/29 kBProgress (3): 27 kB | 32 kB | 13/29 kB Progress (3): 27 kB | 32 kB | 14/29 kBProgress (3): 27 kB | 32 kB | 15/29 kBProgress (3): 27 kB | 32 kB | 19/29 kBProgress (3): 27 kB | 32 kB | 20/29 kBProgress (3): 27 kB | 32 kB | 24/29 kBProgress (3): 27 kB | 32 kB | 28/29 kBProgress (3): 27 kB | 32 kB | 29 kB                                      Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-dependency-analyzer/1.4/maven-dependency-analyzer-1.4.jar (27 kB at 23 kB/s)
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-common-artifact-filters/1.4/maven-common-artifact-filters-1.4.jar (32 kB at 24 kB/s)
+Downloaded from alimaven: http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/shared/maven-invoker/2.0.11/maven-invoker-2.0.11.jar (29 kB at 20 kB/s)
+[INFO] frank:Spark:jar:1.0-SNAPSHOT
+[INFO] +- org.apache.hadoop:hadoop-common:jar:2.7.4:compile
+[INFO] |  +- org.apache.hadoop:hadoop-annotations:jar:2.7.4:compile
+[INFO] |  |  \- jdk.tools:jdk.tools:jar:1.8:system
+[INFO] |  +- com.google.guava:guava:jar:11.0.2:compile
+[INFO] |  |  \- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 3.0.0)
+[INFO] |  +- commons-cli:commons-cli:jar:1.2:compile
+[INFO] |  +- org.apache.commons:commons-math3:jar:3.1.1:compile
+[INFO] |  +- xmlenc:xmlenc:jar:0.52:compile
+[INFO] |  +- commons-httpclient:commons-httpclient:jar:3.1:compile
+[INFO] |  |  +- (commons-logging:commons-logging:jar:1.0.4:compile - omitted for conflict with 1.1.3)
+[INFO] |  |  \- (commons-codec:commons-codec:jar:1.2:compile - omitted for conflict with 1.4)
+[INFO] |  +- commons-codec:commons-codec:jar:1.4:compile
+[INFO] |  +- commons-io:commons-io:jar:2.4:compile
+[INFO] |  +- commons-net:commons-net:jar:3.1:compile
+[INFO] |  +- commons-collections:commons-collections:jar:3.2.2:compile
+[INFO] |  +- javax.servlet:servlet-api:jar:2.5:compile
+[INFO] |  +- org.mortbay.jetty:jetty:jar:6.1.26:compile
+[INFO] |  |  \- (org.mortbay.jetty:jetty-util:jar:6.1.26:compile - omitted for duplicate)
+[INFO] |  +- org.mortbay.jetty:jetty-util:jar:6.1.26:compile
+[INFO] |  +- org.mortbay.jetty:jetty-sslengine:jar:6.1.26:compile
+[INFO] |  |  \- (org.mortbay.jetty:jetty:jar:6.1.26:compile - omitted for duplicate)
+[INFO] |  +- javax.servlet.jsp:jsp-api:jar:2.1:runtime
+[INFO] |  +- com.sun.jersey:jersey-core:jar:1.9:compile
+[INFO] |  +- com.sun.jersey:jersey-json:jar:1.9:compile
+[INFO] |  |  +- org.codehaus.jettison:jettison:jar:1.1:compile
+[INFO] |  |  +- com.sun.xml.bind:jaxb-impl:jar:2.2.3-1:compile
+[INFO] |  |  |  \- javax.xml.bind:jaxb-api:jar:2.2.2:compile
+[INFO] |  |  |     +- javax.xml.stream:stax-api:jar:1.0-2:compile
+[INFO] |  |  |     \- javax.activation:activation:jar:1.1:compile
+[INFO] |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.3:compile - omitted for conflict with 1.9.13)
+[INFO] |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.3:compile - omitted for conflict with 1.9.13)
+[INFO] |  |  +- org.codehaus.jackson:jackson-jaxrs:jar:1.8.3:compile
+[INFO] |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.3:compile - omitted for duplicate)
+[INFO] |  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.3:compile - omitted for duplicate)
+[INFO] |  |  +- org.codehaus.jackson:jackson-xc:jar:1.8.3:compile
+[INFO] |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.3:compile - omitted for duplicate)
+[INFO] |  |  |  \- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.3:compile - omitted for duplicate)
+[INFO] |  |  \- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+[INFO] |  +- com.sun.jersey:jersey-server:jar:1.9:compile
+[INFO] |  |  +- asm:asm:jar:3.1:compile
+[INFO] |  |  \- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+[INFO] |  +- commons-logging:commons-logging:jar:1.1.3:compile
+[INFO] |  +- log4j:log4j:jar:1.2.17:compile
+[INFO] |  +- net.java.dev.jets3t:jets3t:jar:0.9.0:compile
+[INFO] |  |  +- (commons-codec:commons-codec:jar:1.4:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.1.3)
+[INFO] |  |  +- (org.apache.httpcomponents:httpclient:jar:4.1.2:compile - omitted for conflict with 4.5.4)
+[INFO] |  |  +- org.apache.httpcomponents:httpcore:jar:4.1.2:compile
+[INFO] |  |  \- com.jamesmurty.utils:java-xmlbuilder:jar:0.4:compile
+[INFO] |  +- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  +- commons-configuration:commons-configuration:jar:1.6:compile
+[INFO] |  |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for conflict with 3.2.2)
+[INFO] |  |  +- (commons-lang:commons-lang:jar:2.4:compile - omitted for conflict with 2.6)
+[INFO] |  |  +- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.1.3)
+[INFO] |  |  +- commons-digester:commons-digester:jar:1.8:compile
+[INFO] |  |  |  +- commons-beanutils:commons-beanutils:jar:1.7.0:compile
+[INFO] |  |  |  |  \- (commons-logging:commons-logging:jar:1.0.3:compile - omitted for conflict with 1.1.3)
+[INFO] |  |  |  \- (commons-logging:commons-logging:jar:1.1:compile - omitted for conflict with 1.1.3)
+[INFO] |  |  \- commons-beanutils:commons-beanutils-core:jar:1.8.0:compile
+[INFO] |  |     \- (commons-logging:commons-logging:jar:1.1.1:compile - omitted for conflict with 1.1.3)
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.10:compile
+[INFO] |  +- (org.slf4j:slf4j-log4j12:jar:1.7.10:compile - scope updated from runtime; omitted for duplicate)
+[INFO] |  +- org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile
+[INFO] |  +- org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile
+[INFO] |  |  \- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+[INFO] |  +- org.apache.avro:avro:jar:1.7.4:compile
+[INFO] |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.8.8:compile - omitted for conflict with 1.9.13)
+[INFO] |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8:compile - omitted for conflict with 1.9.13)
+[INFO] |  |  +- com.thoughtworks.paranamer:paranamer:jar:2.3:compile
+[INFO] |  |  +- (org.xerial.snappy:snappy-java:jar:1.0.4.1:compile - omitted for conflict with 1.1.2.6)
+[INFO] |  |  +- (org.apache.commons:commons-compress:jar:1.4.1:compile - omitted for duplicate)
+[INFO] |  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for conflict with 1.7.10)
+[INFO] |  +- com.google.protobuf:protobuf-java:jar:2.5.0:compile
+[INFO] |  +- com.google.code.gson:gson:jar:2.2.4:compile
+[INFO] |  +- org.apache.hadoop:hadoop-auth:jar:2.7.4:compile
+[INFO] |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-codec:commons-codec:jar:1.4:compile - omitted for duplicate)
+[INFO] |  |  +- (log4j:log4j:jar:1.2.17:runtime - omitted for duplicate)
+[INFO] |  |  +- (org.slf4j:slf4j-log4j12:jar:1.7.10:runtime - omitted for duplicate)
+[INFO] |  |  +- (org.apache.httpcomponents:httpclient:jar:4.2.5:compile - omitted for conflict with 4.1.2)
+[INFO] |  |  +- org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15:compile
+[INFO] |  |  |  +- org.apache.directory.server:apacheds-i18n:jar:2.0.0-M15:compile
+[INFO] |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.10)
+[INFO] |  |  |  +- org.apache.directory.api:api-asn1-api:jar:1.0.0-M20:compile
+[INFO] |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.10)
+[INFO] |  |  |  +- org.apache.directory.api:api-util:jar:1.0.0-M20:compile
+[INFO] |  |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.10)
+[INFO] |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.10)
+[INFO] |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+[INFO] |  |  \- org.apache.curator:curator-framework:jar:2.7.1:compile
+[INFO] |  |     +- (org.apache.curator:curator-client:jar:2.7.1:compile - omitted for duplicate)
+[INFO] |  |     +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+[INFO] |  |     \- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 11.0.2)
+[INFO] |  +- com.jcraft:jsch:jar:0.1.54:compile
+[INFO] |  +- org.apache.curator:curator-client:jar:2.7.1:compile
+[INFO] |  |  +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for conflict with 1.7.10)
+[INFO] |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+[INFO] |  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 11.0.2)
+[INFO] |  +- org.apache.curator:curator-recipes:jar:2.7.1:compile
+[INFO] |  |  +- (org.apache.curator:curator-framework:jar:2.7.1:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+[INFO] |  |  \- (com.google.guava:guava:jar:16.0.1:compile - omitted for conflict with 11.0.2)
+[INFO] |  +- com.google.code.findbugs:jsr305:jar:3.0.0:compile
+[INFO] |  +- org.apache.htrace:htrace-core:jar:3.1.0-incubating:compile
+[INFO] |  +- org.apache.zookeeper:zookeeper:jar:3.4.6:compile
+[INFO] |  |  +- (org.slf4j:slf4j-api:jar:1.6.1:compile - omitted for conflict with 1.7.10)
+[INFO] |  |  +- (org.slf4j:slf4j-log4j12:jar:1.6.1:compile - omitted for conflict with 1.7.16)
+[INFO] |  |  +- (log4j:log4j:jar:1.2.16:compile - omitted for conflict with 1.2.17)
+[INFO] |  |  \- (io.netty:netty:jar:3.7.0.Final:compile - omitted for conflict with 3.9.9.Final)
+[INFO] |  \- org.apache.commons:commons-compress:jar:1.4.1:compile
+[INFO] |     \- org.tukaani:xz:jar:1.0:compile
+[INFO] +- org.apache.hadoop:hadoop-client:jar:2.7.4:compile
+[INFO] |  +- (org.apache.hadoop:hadoop-common:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  +- org.apache.hadoop:hadoop-hdfs:jar:2.7.4:compile
+[INFO] |  |  +- (com.google.guava:guava:jar:11.0.2:compile - omitted for duplicate)
+[INFO] |  |  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-codec:commons-codec:jar:1.4:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for duplicate)
+[INFO] |  |  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+[INFO] |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+[INFO] |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+[INFO] |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+[INFO] |  |  +- (xmlenc:xmlenc:jar:0.52:compile - omitted for duplicate)
+[INFO] |  |  +- (io.netty:netty:jar:3.6.2.Final:compile - omitted for conflict with 3.7.0.Final)
+[INFO] |  |  +- (io.netty:netty-all:jar:4.0.23.Final:compile - omitted for conflict with 4.1.8.Final)
+[INFO] |  |  +- xerces:xercesImpl:jar:2.9.1:compile
+[INFO] |  |  |  \- xml-apis:xml-apis:jar:1.3.04:compile
+[INFO] |  |  +- (org.apache.htrace:htrace-core:jar:3.1.0-incubating:compile - omitted for duplicate)
+[INFO] |  |  \- org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:compile
+[INFO] |  +- org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.7.4:compile
+[INFO] |  |  +- org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.7.4:compile
+[INFO] |  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  |  |  +- org.apache.hadoop:hadoop-yarn-client:jar:2.7.4:compile
+[INFO] |  |  |  |  +- (com.google.guava:guava:jar:11.0.2:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  |  |  |  \- (org.apache.hadoop:hadoop-yarn-common:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  |  |  +- org.apache.hadoop:hadoop-yarn-server-common:jar:2.7.4:compile
+[INFO] |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (org.apache.hadoop:hadoop-yarn-common:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (com.google.guava:guava:jar:11.0.2:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+[INFO] |  |  |  |  +- (org.apache.zookeeper:zookeeper:jar:3.4.6:compile - omitted for duplicate)
+[INFO] |  |  |  |  \- (org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:compile - omitted for duplicate)
+[INFO] |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+[INFO] |  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+[INFO] |  |  +- org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.7.4:compile
+[INFO] |  |  |  +- (org.apache.hadoop:hadoop-yarn-server-common:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:compile - omitted for duplicate)
+[INFO] |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+[INFO] |  |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+[INFO] |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+[INFO] |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+[INFO] |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+[INFO] |  +- org.apache.hadoop:hadoop-yarn-api:jar:2.7.4:compile
+[INFO] |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] |  |  +- (com.google.guava:guava:jar:11.0.2:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for duplicate)
+[INFO] |  |  \- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+[INFO] |  +- org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.7.4:compile
+[INFO] |  |  +- org.apache.hadoop:hadoop-yarn-common:jar:2.7.4:compile
+[INFO] |  |  |  +- (org.apache.hadoop:hadoop-yarn-api:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  |  |  +- (javax.xml.bind:jaxb-api:jar:2.2.2:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.apache.commons:commons-compress:jar:1.4.1:compile - omitted for duplicate)
+[INFO] |  |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] |  |  |  +- (javax.servlet:servlet-api:jar:2.5:compile - omitted for duplicate)
+[INFO] |  |  |  +- (commons-codec:commons-codec:jar:1.4:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:compile - omitted for duplicate)
+[INFO] |  |  |  +- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+[INFO] |  |  |  +- com.sun.jersey:jersey-client:jar:1.9:compile
+[INFO] |  |  |  |  \- (com.sun.jersey:jersey-core:jar:1.9:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.codehaus.jackson:jackson-jaxrs:jar:1.9.13:compile - omitted for conflict with 1.8.3)
+[INFO] |  |  |  +- (org.codehaus.jackson:jackson-xc:jar:1.9.13:compile - omitted for conflict with 1.8.3)
+[INFO] |  |  |  +- (com.google.guava:guava:jar:11.0.2:compile - omitted for duplicate)
+[INFO] |  |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for duplicate)
+[INFO] |  |  |  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+[INFO] |  |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+[INFO] |  |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+[INFO] |  |  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+[INFO] |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+[INFO] |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+[INFO] |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+[INFO] |  +- org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:2.7.4:compile
+[INFO] |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+[INFO] |  |  +- (org.slf4j:slf4j-api:jar:1.7.10:compile - omitted for duplicate)
+[INFO] |  |  \- (org.slf4j:slf4j-log4j12:jar:1.7.10:compile - omitted for conflict with 1.6.1)
+[INFO] |  \- (org.apache.hadoop:hadoop-annotations:jar:2.7.4:compile - omitted for duplicate)
+[INFO] +- org.apache.hbase:hbase-client:jar:1.4.5:compile
+[INFO] |  +- org.apache.hbase:hbase-annotations:jar:1.4.5:compile
+[INFO] |  |  +- com.github.stephenc.findbugs:findbugs-annotations:jar:1.3.9-1:compile
+[INFO] |  |  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+[INFO] |  |  \- junit:junit:jar:4.12:compile
+[INFO] |  |     \- org.hamcrest:hamcrest-core:jar:1.3:compile
+[INFO] |  +- org.apache.hbase:hbase-common:jar:1.4.5:compile
+[INFO] |  |  +- (org.apache.hbase:hbase-protocol:jar:1.4.5:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.hbase:hbase-annotations:jar:1.4.5:compile - omitted for duplicate)
+[INFO] |  |  +- (com.google.guava:guava:jar:12.0.1:compile - omitted for conflict with 11.0.2)
+[INFO] |  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.3)
+[INFO] |  |  +- (commons-codec:commons-codec:jar:1.9:compile - omitted for conflict with 1.4)
+[INFO] |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-collections:commons-collections:jar:3.2.2:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+[INFO] |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+[INFO] |  |  +- (org.mortbay.jetty:jetty-util:jar:6.1.26:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.htrace:htrace-core:jar:3.1.0-incubating:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.avro:avro:jar:1.7.7:compile - omitted for conflict with 1.7.4)
+[INFO] |  |  +- (org.apache.hadoop:hadoop-common:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  |  +- (com.github.stephenc.findbugs:findbugs-annotations:jar:1.3.9-1:compile - omitted for duplicate)
+[INFO] |  |  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+[INFO] |  |  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
+[INFO] |  +- org.apache.hbase:hbase-protocol:jar:1.4.5:compile
+[INFO] |  |  +- (org.apache.hbase:hbase-annotations:jar:1.4.5:compile - omitted for duplicate)
+[INFO] |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.3)
+[INFO] |  |  +- (com.github.stephenc.findbugs:findbugs-annotations:jar:1.3.9-1:compile - omitted for duplicate)
+[INFO] |  |  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+[INFO] |  |  \- (junit:junit:jar:4.12:compile - omitted for duplicate)
+[INFO] |  +- (commons-codec:commons-codec:jar:1.9:compile - omitted for conflict with 1.4)
+[INFO] |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+[INFO] |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.3)
+[INFO] |  +- (com.google.guava:guava:jar:12.0.1:compile - omitted for conflict with 11.0.2)
+[INFO] |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+[INFO] |  +- io.netty:netty-all:jar:4.1.8.Final:compile
+[INFO] |  +- (org.apache.zookeeper:zookeeper:jar:3.4.10:compile - omitted for conflict with 3.4.6)
+[INFO] |  +- (org.apache.htrace:htrace-core:jar:3.1.0-incubating:compile - omitted for duplicate)
+[INFO] |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+[INFO] |  +- org.jruby.jcodings:jcodings:jar:1.0.8:compile
+[INFO] |  +- org.jruby.joni:joni:jar:2.1.2:compile
+[INFO] |  |  \- (org.jruby.jcodings:jcodings:jar:1.0.8:compile - omitted for duplicate)
+[INFO] |  +- com.yammer.metrics:metrics-core:jar:2.2.0:compile
+[INFO] |  |  \- (org.slf4j:slf4j-api:jar:1.7.2:compile - omitted for conflict with 1.7.10)
+[INFO] |  +- (org.apache.hadoop:hadoop-auth:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  +- (org.apache.hadoop:hadoop-common:jar:2.7.4:compile - omitted for duplicate)
+[INFO] |  \- (org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.7.4:compile - omitted for duplicate)
+[INFO] +- org.apache.spark:spark-core_2.11:jar:2.3.1:compile
+[INFO] |  +- (org.apache.avro:avro:jar:1.7.7:compile - omitted for conflict with 1.7.4)
+[INFO] |  +- org.apache.avro:avro-mapred:jar:hadoop2:1.7.7:compile
+[INFO] |  |  +- org.apache.avro:avro-ipc:jar:1.7.7:compile
+[INFO] |  |  |  +- (org.apache.avro:avro:jar:1.7.7:compile - omitted for conflict with 1.7.4)
+[INFO] |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+[INFO] |  |  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for conflict with 1.7.10)
+[INFO] |  |  +- org.apache.avro:avro-ipc:jar:tests:1.7.7:compile
+[INFO] |  |  |  +- (org.apache.avro:avro:jar:1.7.7:compile - omitted for conflict with 1.7.4)
+[INFO] |  |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+[INFO] |  |  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for conflict with 1.7.10)
+[INFO] |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.13:compile - omitted for duplicate)
+[INFO] |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+[INFO] |  |  \- (org.slf4j:slf4j-api:jar:1.6.4:compile - omitted for conflict with 1.7.10)
+[INFO] |  +- com.twitter:chill_2.11:jar:0.8.4:compile
+[INFO] |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+[INFO] |  |  +- (com.twitter:chill-java:jar:0.8.4:compile - omitted for duplicate)
+[INFO] |  |  \- com.esotericsoftware:kryo-shaded:jar:3.0.3:compile
+[INFO] |  |     +- com.esotericsoftware:minlog:jar:1.3.0:compile
+[INFO] |  |     \- org.objenesis:objenesis:jar:2.1:compile
+[INFO] |  +- com.twitter:chill-java:jar:0.8.4:compile
+[INFO] |  |  \- (com.esotericsoftware:kryo-shaded:jar:3.0.3:compile - omitted for duplicate)
+[INFO] |  +- org.apache.xbean:xbean-asm5-shaded:jar:4.4:compile
+[INFO] |  +- (org.apache.hadoop:hadoop-client:jar:2.6.5:compile - omitted for conflict with 2.7.4)
+[INFO] |  +- org.apache.spark:spark-launcher_2.11:jar:2.3.1:compile
+[INFO] |  |  +- (org.apache.spark:spark-tags_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+[INFO] |  +- org.apache.spark:spark-kvstore_2.11:jar:2.3.1:compile
+[INFO] |  |  +- (org.apache.spark:spark-tags_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  |  +- (org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:compile - omitted for duplicate)
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile
+[INFO] |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile - omitted for duplicate)
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7:compile
+[INFO] |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+[INFO] |  +- org.apache.spark:spark-network-common_2.11:jar:2.3.1:compile
+[INFO] |  |  +- (io.netty:netty-all:jar:4.1.17.Final:compile - omitted for conflict with 4.1.8.Final)
+[INFO] |  |  +- (org.apache.commons:commons-lang3:jar:3.5:compile - omitted for duplicate)
+[INFO] |  |  +- (org.fusesource.leveldbjni:leveldbjni-all:jar:1.8:compile - omitted for duplicate)
+[INFO] |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile - omitted for duplicate)
+[INFO] |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7:compile - omitted for duplicate)
+[INFO] |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.5:compile - omitted for duplicate)
+[INFO] |  |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 3.0.0)
+[INFO] |  |  +- (org.apache.commons:commons-crypto:jar:1.0.0:compile - omitted for duplicate)
+[INFO] |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+[INFO] |  +- org.apache.spark:spark-network-shuffle_2.11:jar:2.3.1:compile
+[INFO] |  |  +- (org.apache.spark:spark-network-common_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.5:compile - omitted for duplicate)
+[INFO] |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+[INFO] |  +- org.apache.spark:spark-unsafe_2.11:jar:2.3.1:compile
+[INFO] |  |  +- (org.apache.spark:spark-tags_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  |  +- (com.twitter:chill_2.11:jar:0.8.4:compile - omitted for duplicate)
+[INFO] |  |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 3.0.0)
+[INFO] |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+[INFO] |  +- (net.java.dev.jets3t:jets3t:jar:0.9.4:compile - omitted for conflict with 0.9.0)
+[INFO] |  +- (org.apache.curator:curator-recipes:jar:2.6.0:compile - omitted for conflict with 2.7.1)
+[INFO] |  +- javax.servlet:javax.servlet-api:jar:3.1.0:compile
+[INFO] |  +- org.apache.commons:commons-lang3:jar:3.5:compile
+[INFO] |  +- (org.apache.commons:commons-math3:jar:3.4.1:compile - omitted for conflict with 3.1.1)
+[INFO] |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 3.0.0)
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.7.16:compile - omitted for conflict with 1.7.10)
+[INFO] |  +- org.slf4j:jul-to-slf4j:jar:1.7.16:compile
+[INFO] |  |  \- (org.slf4j:slf4j-api:jar:1.7.16:compile - omitted for conflict with 1.7.10)
+[INFO] |  +- org.slf4j:jcl-over-slf4j:jar:1.7.16:compile
+[INFO] |  |  \- (org.slf4j:slf4j-api:jar:1.7.16:compile - omitted for conflict with 1.7.10)
+[INFO] |  +- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+[INFO] |  +- org.slf4j:slf4j-log4j12:jar:1.7.16:compile
+[INFO] |  |  +- (org.slf4j:slf4j-api:jar:1.7.16:compile - omitted for conflict with 1.7.10)
+[INFO] |  |  \- (log4j:log4j:jar:1.2.17:compile - omitted for duplicate)
+[INFO] |  +- com.ning:compress-lzf:jar:1.0.3:compile
+[INFO] |  +- org.xerial.snappy:snappy-java:jar:1.1.2.6:compile
+[INFO] |  +- org.lz4:lz4-java:jar:1.4.0:compile
+[INFO] |  +- com.github.luben:zstd-jni:jar:1.3.2-2:compile
+[INFO] |  +- org.roaringbitmap:RoaringBitmap:jar:0.5.11:compile
+[INFO] |  +- (commons-net:commons-net:jar:2.2:compile - omitted for conflict with 3.1)
+[INFO] |  +- org.scala-lang:scala-library:jar:2.11.8:compile
+[INFO] |  +- org.json4s:json4s-jackson_2.11:jar:3.2.11:compile
+[INFO] |  |  +- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+[INFO] |  |  +- org.json4s:json4s-core_2.11:jar:3.2.11:compile
+[INFO] |  |  |  +- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+[INFO] |  |  |  +- org.json4s:json4s-ast_2.11:jar:3.2.11:compile
+[INFO] |  |  |  |  \- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+[INFO] |  |  |  +- (com.thoughtworks.paranamer:paranamer:jar:2.6:compile - omitted for conflict with 2.3)
+[INFO] |  |  |  \- org.scala-lang:scalap:jar:2.11.0:compile
+[INFO] |  |  |     \- org.scala-lang:scala-compiler:jar:2.11.0:compile
+[INFO] |  |  |        +- (org.scala-lang:scala-library:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+[INFO] |  |  |        +- (org.scala-lang:scala-reflect:jar:2.11.0:compile - omitted for conflict with 2.11.8)
+[INFO] |  |  |        +- (org.scala-lang.modules:scala-xml_2.11:jar:1.0.1:compile - omitted for conflict with 1.0.2)
+[INFO] |  |  |        \- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.1:compile - omitted for conflict with 1.0.4)
+[INFO] |  |  \- (com.fasterxml.jackson.core:jackson-databind:jar:2.3.1:compile - omitted for conflict with 2.6.7.1)
+[INFO] |  +- org.glassfish.jersey.core:jersey-client:jar:2.22.2:compile
+[INFO] |  |  +- javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile
+[INFO] |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.22.2:compile - omitted for duplicate)
+[INFO] |  |  +- org.glassfish.hk2:hk2-api:jar:2.4.0-b34:compile
+[INFO] |  |  |  +- org.glassfish.hk2:hk2-utils:jar:2.4.0-b34:compile
+[INFO] |  |  |  \- org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b34:compile
+[INFO] |  |  +- org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:compile
+[INFO] |  |  \- org.glassfish.hk2:hk2-locator:jar:2.4.0-b34:compile
+[INFO] |  |     +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:compile - omitted for duplicate)
+[INFO] |  |     +- (org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b34:compile - omitted for duplicate)
+[INFO] |  |     +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b34:compile - omitted for duplicate)
+[INFO] |  |     +- (org.glassfish.hk2:hk2-utils:jar:2.4.0-b34:compile - omitted for duplicate)
+[INFO] |  |     \- org.javassist:javassist:jar:3.18.1-GA:compile
+[INFO] |  +- org.glassfish.jersey.core:jersey-common:jar:2.22.2:compile
+[INFO] |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+[INFO] |  |  +- javax.annotation:javax.annotation-api:jar:1.2:compile
+[INFO] |  |  +- org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.22.2:compile
+[INFO] |  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b34:compile - omitted for duplicate)
+[INFO] |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:compile - omitted for duplicate)
+[INFO] |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.4.0-b34:compile - omitted for duplicate)
+[INFO] |  |  \- org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile
+[INFO] |  +- org.glassfish.jersey.core:jersey-server:jar:2.22.2:compile
+[INFO] |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.22.2:compile - omitted for duplicate)
+[INFO] |  |  +- (org.glassfish.jersey.core:jersey-client:jar:2.22.2:compile - omitted for duplicate)
+[INFO] |  |  +- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+[INFO] |  |  +- org.glassfish.jersey.media:jersey-media-jaxb:jar:2.22.2:compile
+[INFO] |  |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.22.2:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b34:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:compile - omitted for duplicate)
+[INFO] |  |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.4.0-b34:compile - omitted for duplicate)
+[INFO] |  |  |  \- (org.glassfish.hk2:osgi-resource-locator:jar:1.0.1:compile - omitted for duplicate)
+[INFO] |  |  +- (javax.annotation:javax.annotation-api:jar:1.2:compile - omitted for duplicate)
+[INFO] |  |  +- (org.glassfish.hk2:hk2-api:jar:2.4.0-b34:compile - omitted for duplicate)
+[INFO] |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:compile - omitted for duplicate)
+[INFO] |  |  +- (org.glassfish.hk2:hk2-locator:jar:2.4.0-b34:compile - omitted for duplicate)
+[INFO] |  |  \- javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO] |  +- org.glassfish.jersey.containers:jersey-container-servlet:jar:2.22.2:compile
+[INFO] |  |  +- (org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.22.2:compile - omitted for duplicate)
+[INFO] |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.22.2:compile - omitted for duplicate)
+[INFO] |  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.22.2:compile - omitted for duplicate)
+[INFO] |  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+[INFO] |  +- org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.22.2:compile
+[INFO] |  |  +- (org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34:compile - omitted for duplicate)
+[INFO] |  |  +- (org.glassfish.jersey.core:jersey-common:jar:2.22.2:compile - omitted for duplicate)
+[INFO] |  |  +- (org.glassfish.jersey.core:jersey-server:jar:2.22.2:compile - omitted for duplicate)
+[INFO] |  |  \- (javax.ws.rs:javax.ws.rs-api:jar:2.0.1:compile - omitted for duplicate)
+[INFO] |  +- (io.netty:netty-all:jar:4.1.17.Final:compile - omitted for conflict with 4.1.8.Final)
+[INFO] |  +- io.netty:netty:jar:3.9.9.Final:compile
+[INFO] |  +- com.clearspring.analytics:stream:jar:2.7.0:compile
+[INFO] |  +- io.dropwizard.metrics:metrics-core:jar:3.1.5:compile
+[INFO] |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.10)
+[INFO] |  +- io.dropwizard.metrics:metrics-jvm:jar:3.1.5:compile
+[INFO] |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.5:compile - omitted for duplicate)
+[INFO] |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.10)
+[INFO] |  +- io.dropwizard.metrics:metrics-json:jar:3.1.5:compile
+[INFO] |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.5:compile - omitted for duplicate)
+[INFO] |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.4.2:compile - omitted for conflict with 2.6.7.1)
+[INFO] |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.10)
+[INFO] |  +- io.dropwizard.metrics:metrics-graphite:jar:3.1.5:compile
+[INFO] |  |  +- (io.dropwizard.metrics:metrics-core:jar:3.1.5:compile - omitted for duplicate)
+[INFO] |  |  \- (org.slf4j:slf4j-api:jar:1.7.7:compile - omitted for conflict with 1.7.10)
+[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile
+[INFO] |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0:compile - omitted for conflict with 2.6.7)
+[INFO] |  |  \- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
+[INFO] |  +- com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.7.1:compile
+[INFO] |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+[INFO] |  |  +- org.scala-lang:scala-reflect:jar:2.11.8:compile
+[INFO] |  |  |  \- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+[INFO] |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.6.7:compile - omitted for duplicate)
+[INFO] |  |  +- (com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7:compile - omitted for duplicate)
+[INFO] |  |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7:compile - omitted for conflict with 2.6.7.1)
+[INFO] |  |  \- com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.7.9:compile
+[INFO] |  |     \- (com.thoughtworks.paranamer:paranamer:jar:2.8:compile - omitted for conflict with 2.3)
+[INFO] |  +- org.apache.ivy:ivy:jar:2.4.0:compile
+[INFO] |  +- oro:oro:jar:2.0.8:compile
+[INFO] |  +- net.razorvine:pyrolite:jar:4.13:compile
+[INFO] |  +- net.sf.py4j:py4j:jar:0.10.7:compile
+[INFO] |  +- org.apache.spark:spark-tags_2.11:jar:2.3.1:compile
+[INFO] |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+[INFO] |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+[INFO] |  +- org.apache.commons:commons-crypto:jar:1.0.0:compile
+[INFO] |  \- org.spark-project.spark:unused:jar:1.0.0:compile
+[INFO] +- org.apache.spark:spark-sql_2.11:jar:2.3.1:compile
+[INFO] |  +- com.univocity:univocity-parsers:jar:2.5.9:compile
+[INFO] |  +- org.apache.spark:spark-sketch_2.11:jar:2.3.1:compile
+[INFO] |  |  +- (org.apache.spark:spark-tags_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+[INFO] |  +- (org.apache.spark:spark-core_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  +- org.apache.spark:spark-catalyst_2.11:jar:2.3.1:compile
+[INFO] |  |  +- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for duplicate)
+[INFO] |  |  +- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.spark:spark-core_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.spark:spark-tags_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.spark:spark-unsafe_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.spark:spark-sketch_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  |  +- org.codehaus.janino:janino:jar:3.0.8:compile
+[INFO] |  |  |  \- (org.codehaus.janino:commons-compiler:jar:3.0.8:compile - omitted for duplicate)
+[INFO] |  |  +- org.codehaus.janino:commons-compiler:jar:3.0.8:compile
+[INFO] |  |  +- org.antlr:antlr4-runtime:jar:4.7:compile
+[INFO] |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for conflict with 1.4)
+[INFO] |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+[INFO] |  +- (org.apache.spark:spark-tags_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  +- org.apache.orc:orc-core:jar:nohive:1.4.4:compile
+[INFO] |  |  +- (com.google.protobuf:protobuf-java:jar:2.5.0:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] |  |  +- io.airlift:aircompressor:jar:0.8:compile
+[INFO] |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.10)
+[INFO] |  +- org.apache.orc:orc-mapreduce:jar:nohive:1.4.4:compile
+[INFO] |  |  +- (com.esotericsoftware:kryo-shaded:jar:3.0.3:compile - omitted for duplicate)
+[INFO] |  |  \- (commons-codec:commons-codec:jar:1.4:compile - omitted for duplicate)
+[INFO] |  +- org.apache.parquet:parquet-column:jar:1.8.3:compile
+[INFO] |  |  +- org.apache.parquet:parquet-common:jar:1.8.3:compile
+[INFO] |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.10)
+[INFO] |  |  +- org.apache.parquet:parquet-encoding:jar:1.8.3:compile
+[INFO] |  |  |  +- (org.apache.parquet:parquet-common:jar:1.8.3:compile - omitted for duplicate)
+[INFO] |  |  |  \- (commons-codec:commons-codec:jar:1.5:compile - omitted for conflict with 1.4)
+[INFO] |  |  \- (commons-codec:commons-codec:jar:1.5:compile - omitted for conflict with 1.4)
+[INFO] |  +- org.apache.parquet:parquet-hadoop:jar:1.8.3:compile
+[INFO] |  |  +- (org.apache.parquet:parquet-column:jar:1.8.3:compile - omitted for duplicate)
+[INFO] |  |  +- org.apache.parquet:parquet-format:jar:2.3.1:compile
+[INFO] |  |  +- org.apache.parquet:parquet-jackson:jar:1.8.3:compile
+[INFO] |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.11:compile - omitted for conflict with 1.9.13)
+[INFO] |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.11:compile - omitted for conflict with 1.9.13)
+[INFO] |  |  \- (org.xerial.snappy:snappy-java:jar:1.1.1.6:compile - omitted for conflict with 1.1.2.6)
+[INFO] |  +- (com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1:compile - omitted for duplicate)
+[INFO] |  +- org.apache.arrow:arrow-vector:jar:0.8.0:compile
+[INFO] |  |  +- org.apache.arrow:arrow-format:jar:0.8.0:compile
+[INFO] |  |  |  \- (com.vlkan:flatbuffers:jar:1.2.0-3f79e055:compile - omitted for duplicate)
+[INFO] |  |  +- org.apache.arrow:arrow-memory:jar:0.8.0:compile
+[INFO] |  |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for conflict with 3.0.0)
+[INFO] |  |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.10)
+[INFO] |  |  +- (joda-time:joda-time:jar:2.9.9:compile - omitted for conflict with 2.9.3)
+[INFO] |  |  +- (com.fasterxml.jackson.core:jackson-core:jar:2.7.9:compile - omitted for conflict with 2.6.7)
+[INFO] |  |  +- com.carrotsearch:hppc:jar:0.7.2:compile
+[INFO] |  |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for conflict with 1.4)
+[INFO] |  |  +- com.vlkan:flatbuffers:jar:1.2.0-3f79e055:compile
+[INFO] |  |  +- (com.google.code.findbugs:jsr305:jar:3.0.2:compile - omitted for conflict with 3.0.0)
+[INFO] |  |  \- (org.slf4j:slf4j-api:jar:1.7.25:compile - omitted for conflict with 1.7.10)
+[INFO] |  +- (org.apache.xbean:xbean-asm5-shaded:jar:4.4:compile - omitted for duplicate)
+[INFO] |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+[INFO] +- org.apache.spark:spark-hive_2.11:jar:2.3.1:compile
+[INFO] |  +- com.twitter:parquet-hadoop-bundle:jar:1.6.0:compile
+[INFO] |  +- (org.apache.spark:spark-core_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  +- (org.apache.spark:spark-sql_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  +- org.spark-project.hive:hive-exec:jar:1.2.1.spark2:compile
+[INFO] |  |  +- (com.twitter:parquet-hadoop-bundle:jar:1.6.0:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-io:commons-io:jar:2.4:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.commons:commons-lang3:jar:3.1:compile - omitted for conflict with 3.5)
+[INFO] |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] |  |  +- javolution:javolution:jar:5.5.1:compile
+[INFO] |  |  +- log4j:apache-log4j-extras:jar:1.2.17:compile
+[INFO] |  |  +- org.antlr:antlr-runtime:jar:3.4:compile
+[INFO] |  |  |  +- org.antlr:stringtemplate:jar:3.2.1:compile
+[INFO] |  |  |  |  \- (antlr:antlr:jar:2.7.7:compile - omitted for duplicate)
+[INFO] |  |  |  \- antlr:antlr:jar:2.7.7:compile
+[INFO] |  |  +- org.antlr:ST4:jar:4.0.4:compile
+[INFO] |  |  |  \- (org.antlr:antlr-runtime:jar:3.3:compile - omitted for conflict with 3.4)
+[INFO] |  |  +- (org.apache.avro:avro:jar:1.7.5:compile - omitted for conflict with 1.7.4)
+[INFO] |  |  +- (org.apache.commons:commons-compress:jar:1.4.1:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.ivy:ivy:jar:2.4.0:compile - omitted for duplicate)
+[INFO] |  |  +- (org.codehaus.jackson:jackson-core-asl:jar:1.9.2:compile - omitted for conflict with 1.9.13)
+[INFO] |  |  +- (org.jodd:jodd-core:jar:3.5.2:compile - omitted for duplicate)
+[INFO] |  |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2:compile - omitted for conflict with 1.9.13)
+[INFO] |  |  +- (org.datanucleus:datanucleus-core:jar:3.2.10:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.calcite:calcite-avatica:jar:1.2.0-incubating:compile - omitted for duplicate)
+[INFO] |  |  +- com.googlecode.javaewah:JavaEWAH:jar:0.3.2:compile
+[INFO] |  |  +- org.iq80.snappy:snappy:jar:0.2:compile
+[INFO] |  |  +- stax:stax-api:jar:1.0.1:compile
+[INFO] |  |  \- net.sf.opencsv:opencsv:jar:2.3:compile
+[INFO] |  +- org.spark-project.hive:hive-metastore:jar:1.2.1.spark2:compile
+[INFO] |  |  +- com.jolbox:bonecp:jar:0.8.0.RELEASE:compile
+[INFO] |  |  +- (commons-cli:commons-cli:jar:1.2:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] |  |  +- (commons-logging:commons-logging:jar:1.1.3:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.derby:derby:jar:10.10.2.0:compile - omitted for conflict with 10.12.1.1)
+[INFO] |  |  +- org.datanucleus:datanucleus-api-jdo:jar:3.2.6:compile
+[INFO] |  |  +- (org.datanucleus:datanucleus-core:jar:3.2.10:compile - omitted for duplicate)
+[INFO] |  |  +- org.datanucleus:datanucleus-rdbms:jar:3.2.9:compile
+[INFO] |  |  +- commons-pool:commons-pool:jar:1.5.4:compile
+[INFO] |  |  +- commons-dbcp:commons-dbcp:jar:1.4:compile
+[INFO] |  |  |  \- (commons-pool:commons-pool:jar:1.5.4:compile - omitted for duplicate)
+[INFO] |  |  +- javax.jdo:jdo-api:jar:3.0.1:compile
+[INFO] |  |  |  \- javax.transaction:jta:jar:1.1:compile
+[INFO] |  |  \- (org.antlr:antlr-runtime:jar:3.4:compile - omitted for duplicate)
+[INFO] |  +- (org.apache.avro:avro:jar:1.7.7:compile - omitted for conflict with 1.7.4)
+[INFO] |  +- (org.apache.avro:avro-mapred:jar:hadoop2:1.7.7:compile - omitted for duplicate)
+[INFO] |  +- (commons-httpclient:commons-httpclient:jar:3.1:compile - omitted for duplicate)
+[INFO] |  +- org.apache.calcite:calcite-avatica:jar:1.2.0-incubating:compile
+[INFO] |  +- org.apache.calcite:calcite-core:jar:1.2.0-incubating:compile
+[INFO] |  |  +- (org.apache.calcite:calcite-avatica:jar:1.2.0-incubating:compile - omitted for duplicate)
+[INFO] |  |  +- org.apache.calcite:calcite-linq4j:jar:1.2.0-incubating:compile
+[INFO] |  |  +- (commons-dbcp:commons-dbcp:jar:1.4:compile - omitted for duplicate)
+[INFO] |  |  \- net.hydromatic:eigenbase-properties:jar:1.1.5:compile
+[INFO] |  +- org.apache.httpcomponents:httpclient:jar:4.5.4:compile
+[INFO] |  |  +- (org.apache.httpcomponents:httpcore:jar:4.4.7:compile - omitted for conflict with 4.1.2)
+[INFO] |  |  +- (commons-logging:commons-logging:jar:1.2:compile - omitted for conflict with 1.1.3)
+[INFO] |  |  \- (commons-codec:commons-codec:jar:1.10:compile - omitted for conflict with 1.4)
+[INFO] |  +- (org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13:compile - omitted for duplicate)
+[INFO] |  +- (commons-codec:commons-codec:jar:1.10:compile - omitted for conflict with 1.4)
+[INFO] |  +- joda-time:joda-time:jar:2.9.3:compile
+[INFO] |  +- org.jodd:jodd-core:jar:3.5.2:compile
+[INFO] |  +- (com.google.code.findbugs:jsr305:jar:1.3.9:compile - omitted for conflict with 3.0.0)
+[INFO] |  +- org.datanucleus:datanucleus-core:jar:3.2.10:compile
+[INFO] |  +- org.apache.thrift:libthrift:jar:0.9.3:compile
+[INFO] |  |  +- (org.apache.httpcomponents:httpclient:jar:4.4.1:compile - omitted for conflict with 4.5.4)
+[INFO] |  |  \- (org.apache.httpcomponents:httpcore:jar:4.4.1:compile - omitted for conflict with 4.1.2)
+[INFO] |  +- org.apache.thrift:libfb303:jar:0.9.3:compile
+[INFO] |  |  \- (org.apache.thrift:libthrift:jar:0.9.3:compile - omitted for duplicate)
+[INFO] |  +- org.apache.derby:derby:jar:10.12.1.1:compile
+[INFO] |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+[INFO] +- org.apache.spark:spark-streaming_2.11:jar:2.3.1:compile
+[INFO] |  +- (org.apache.spark:spark-core_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  +- (org.apache.spark:spark-tags_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+[INFO] |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+[INFO] +- org.apache.spark:spark-streaming-kafka-0-8_2.11:jar:2.3.1:compile
+[INFO] |  +- org.apache.kafka:kafka_2.11:jar:0.8.2.1:compile
+[INFO] |  |  +- org.scala-lang.modules:scala-xml_2.11:jar:1.0.2:compile
+[INFO] |  |  |  \- (org.scala-lang:scala-library:jar:2.11.1:compile - omitted for conflict with 2.11.8)
+[INFO] |  |  +- (com.yammer.metrics:metrics-core:jar:2.2.0:compile - omitted for duplicate)
+[INFO] |  |  +- (org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.2:compile - omitted for conflict with 1.0.4)
+[INFO] |  |  +- com.101tec:zkclient:jar:0.3:compile
+[INFO] |  |  |  \- (log4j:log4j:jar:1.2.14:compile - omitted for conflict with 1.2.17)
+[INFO] |  |  +- (org.scala-lang:scala-library:jar:2.11.5:compile - omitted for conflict with 2.11.8)
+[INFO] |  |  \- org.apache.kafka:kafka-clients:jar:0.8.2.1:compile
+[INFO] |  |     +- (org.slf4j:slf4j-api:jar:1.7.6:compile - omitted for conflict with 1.7.10)
+[INFO] |  |     +- net.jpountz.lz4:lz4:jar:1.2.0:compile
+[INFO] |  |     \- (org.xerial.snappy:snappy-java:jar:1.1.1.6:compile - omitted for conflict with 1.1.2.6)
+[INFO] |  +- (org.apache.spark:spark-tags_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+[INFO] +- org.apache.spark:spark-mllib_2.11:jar:2.3.1:compile
+[INFO] |  +- org.scala-lang.modules:scala-parser-combinators_2.11:jar:1.0.4:compile
+[INFO] |  |  \- (org.scala-lang:scala-library:jar:2.11.6:compile - omitted for conflict with 2.11.8)
+[INFO] |  +- (org.apache.spark:spark-core_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  +- (org.apache.spark:spark-streaming_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  +- (org.apache.spark:spark-sql_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  +- org.apache.spark:spark-graphx_2.11:jar:2.3.1:compile
+[INFO] |  |  +- (org.apache.spark:spark-core_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.spark:spark-mllib-local_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.xbean:xbean-asm5-shaded:jar:4.4:compile - omitted for duplicate)
+[INFO] |  |  +- com.github.fommil.netlib:core:jar:1.1.2:compile
+[INFO] |  |  |  \- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+[INFO] |  |  +- net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile
+[INFO] |  |  +- (org.apache.spark:spark-tags_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+[INFO] |  +- org.apache.spark:spark-mllib-local_2.11:jar:2.3.1:compile
+[INFO] |  |  +- (org.scalanlp:breeze_2.11:jar:0.13.2:compile - omitted for duplicate)
+[INFO] |  |  +- (org.apache.commons:commons-math3:jar:3.4.1:compile - omitted for conflict with 3.1.1)
+[INFO] |  |  +- (org.apache.spark:spark-tags_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+[INFO] |  +- org.scalanlp:breeze_2.11:jar:0.13.2:compile
+[INFO] |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+[INFO] |  |  +- org.scalanlp:breeze-macros_2.11:jar:0.13.2:compile
+[INFO] |  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+[INFO] |  |  |  \- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for duplicate)
+[INFO] |  |  +- (com.github.fommil.netlib:core:jar:1.1.2:compile - omitted for duplicate)
+[INFO] |  |  +- (net.sourceforge.f2j:arpack_combined_all:jar:0.1:compile - omitted for duplicate)
+[INFO] |  |  +- (net.sf.opencsv:opencsv:jar:2.3:compile - omitted for duplicate)
+[INFO] |  |  +- com.github.rwl:jtransforms:jar:2.4.0:compile
+[INFO] |  |  +- org.spire-math:spire_2.11:jar:0.13.0:compile
+[INFO] |  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+[INFO] |  |  |  +- org.spire-math:spire-macros_2.11:jar:0.13.0:compile
+[INFO] |  |  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+[INFO] |  |  |  |  \- (org.typelevel:machinist_2.11:jar:0.6.1:compile - omitted for duplicate)
+[INFO] |  |  |  \- org.typelevel:machinist_2.11:jar:0.6.1:compile
+[INFO] |  |  |     +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+[INFO] |  |  |     \- (org.scala-lang:scala-reflect:jar:2.11.8:compile - omitted for duplicate)
+[INFO] |  |  +- com.chuusai:shapeless_2.11:jar:2.3.2:compile
+[INFO] |  |  |  +- (org.scala-lang:scala-library:jar:2.11.8:compile - omitted for duplicate)
+[INFO] |  |  |  \- org.typelevel:macro-compat_2.11:jar:1.1.1:compile
+[INFO] |  |  |     \- (org.scala-lang:scala-library:jar:2.11.7:compile - omitted for conflict with 2.11.8)
+[INFO] |  |  \- (org.slf4j:slf4j-api:jar:1.7.5:compile - omitted for conflict with 1.7.10)
+[INFO] |  +- (org.apache.commons:commons-math3:jar:3.4.1:compile - omitted for conflict with 3.1.1)
+[INFO] |  +- (org.apache.spark:spark-tags_2.11:jar:2.3.1:compile - omitted for duplicate)
+[INFO] |  \- (org.spark-project.spark:unused:jar:1.0.0:compile - omitted for duplicate)
+[INFO] +- mysql:mysql-connector-java:jar:5.1.42:compile
+[INFO] +- com.alibaba:fastjson:jar:1.2.49:compile
+[INFO] \- redis.clients:jedis:jar:2.9.0:compile
+[INFO]    \- org.apache.commons:commons-pool2:jar:2.4.2:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 24.158 s
+[INFO] Finished at: 2018-08-12T17:08:39+08:00
+[INFO] Final Memory: 32M/401M
+[INFO] ------------------------------------------------------------------------
