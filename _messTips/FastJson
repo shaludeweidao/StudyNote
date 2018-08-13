@@ -1,0 +1,62 @@
+学习网站:
+https://www.w3cschool.cn/fastjson/fastjson-databind.html
+
+
+什么是fastjson?
+fastjson是阿里巴巴的开源JSON解析库，它可以解析JSON格式的字符串，支持将Java Bean序列化为JSON字符串，也可以从JSON字符串反序列化到JavaBean。
+
+Fastjson使用场景
+Fastjson已经被广泛使用在各种场景，包括cache存储、RPC通讯、MQ通讯、网络协议通讯、Android客户端、Ajax服务器处理程序等等。
+
+速度快
+fastjson相对其他JSON库的特点是快，从2011年fastjson发布1.1.x版本之后，其性能从未被其他Java实现的JSON库超越。
+
+
+配置maven依赖
+<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>fastjson</artifactId>
+    <version>x.x.x</version>
+</dependency>
+
+
+
+
+
+
+
+===============================================  api
+fastjson主要的API哪些？
+fastjson入口类是com.alibaba.fastjson.JSON，主要的API是JSON.toJSONString，和parseObject
+使用方式:   JSON.xxx()
+
+序列化:
+//将Java对象序列化为JSON字符串，支持各种各种Java基本类型和JavaBean
+public static String toJSONString(Object object);
+
+//JSON类新增对OutputStream/Writer直接支持, 直接将json数据写到外部存储介质
+public static final int writeJSONString(OutputStream os, Object object, SerializerFeature... features) throws IOException;
+
+
+
+
+
+
+反序列化：
+//将json字符串转化为单个bean对象
+Entity vo = JSON.parseObject("...", Entity.class);
+//将json字符串转化为bean对象的list集合
+List<Bean_1> bean_1s = JSON.parseArray(arrJson, Bean_1.class);
+
+
+
+========================================  注意点
+
+1. 使用fastjson在和java 的bean实体类交互时, bean实体类一定要有无参构造器, get 和 set方法,否则结构数据为空: {}
+2. fastjson可以直接解析bean对象数组, 调用方式同解析单个bean对象一样;
+final Bean_1 bean1 = new Bean_1("a", 1, new String[]{"aa", "bb"});
+final Bean_1 bean2 = new Bean_1("a", 1, new String[]{"aa", "bb"});
+final String str = JSON.toJSONString(new Bean_1[]{bean1,bean2});
+System.out.println(str);
+结果=>
+[{"age":1,"favorite":["aa","bb"],"name":"a"},{"age":1,"favorite":["aa","bb"],"name":"a"}]
