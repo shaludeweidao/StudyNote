@@ -10,6 +10,17 @@ object MySQLDemo {
     val spark = SparkSession.builder().master("local[2]").appName("ExternalStorage/MySQL").enableHiveSupport().getOrCreate()
     import spark.implicits._
 
+
+
+//    val url = "jdbc:mysql://10.126.84.131:5029/data_dict"
+//    val tableName = ""
+//    val user = "task"
+//    val password = "ecdata@0914"
+//    val driver = "com.mysql.jdbc.Driver"
+
+
+
+
     //为了规定mysql中的数据格式,需要在driver端对mysql表进行人为创建,规定表格式,   同时删除历史任务的数据
     val url = "jdbc:mysql://localhost:3306/spark"
 //    var url = "jdbc:mysql://localhost:3306/spark?rewriteBatchedStatements=true&useUnicode=true&characterEncoding=UTF-8"   //此url可以大幅提升写mysql的性能问题

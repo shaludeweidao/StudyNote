@@ -1,0 +1,5 @@
+给linux系统在线下载软件, 例如下载logstash软件:
+wget https://artifacts.elastic.co/downloads/logstash/logstash-6.1.2.tar.gz
+
+
+
