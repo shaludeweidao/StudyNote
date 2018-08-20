@@ -1,0 +1,127 @@
+什么是sparkStreaming
+Spark Streaming是Spark Core API 的扩展,它支持弹性的,高吞吐的,容错的实时数据流的处理.数据可以通过多种数据源获取,
+例如 Kafka, Flume, Kinesis 以及 TCP sockets,
+也可以通过例如 map, reduce, join, window 等的高级函数组成的复杂算法处理.
+最终, 处理后的数据可以输出到文件系统, 数据库以及实时仪表盘中.
+事实上, 还可以在 data streams（数据流）上使用 机器学习 以及 图计算 算法.
+
+
+工作原理
+SparkStreaming接收实时输入数据流并将数据切分成多个 batch（批）数据,然后由Spark引擎处理它们以生成最终的 stream of results in batches（分批流结果）.
+总体上来说,sparkStreaming就是秒级别的离线计算处理(batch的时间长度可以人为设置),具有一定的延迟.
+
+
+一些核心概念
+1. StreamingContext(SparkStreaming程序的入口点)
+为了初始化一个 Spark Streaming 程序, 一个 StreamingContext 对象必须要被创建出来，它是所有的 Spark Streaming 功能的主入口点。
+要构造此StreamingContext对象,必须提供conf对象和batch对象.
+注:conf对象是spark程序存储配置参数的一个map<String,String>集合
+
+
+2. Discretized Streams (简称DStreams)（离散化流）
+SparkStreaming提供了一个名为DStream的高级抽象,它代表一个连续的数据流,本质上一个DStream被表示为一系列连续的RDDs,它是 Spark 中一个不可改变的抽象.
+DStream可以从数据源的输入数据流创建,经过各种Spark原语转换,这个转换操作仅仅是记录运算逻辑,直到遇到action原语才具体生成job作业,提交给sparkContext计算引擎执行计算.
+
+
+3. Input DStreams 和 Receivers (流的数据源对象)
+SparkStreaming 提供了两种内置的数据源:
+(1)Basic sources（基础的数据源:在 StreamingContext API 中直接可以使用的数据源. 例如: file systems(文件系统)和 socket connections(socket数据流).
+(2)Advanced sources（高级的数据源:像 Kafka, Flume, Kinesis等这样的数据源.需要额外的maven依赖,SparkStreaming才能从这些数据源拉取数据进行消费.
+注:高级的数据源有两种连接方式Receive模式和Direct模式,并且Receive模式在分配core的时候要大于1个,否则会出现线程饿死现象.
+注:SparkStreaming连接kafaka的时候,官方推荐使用Direct模式.
+
+
+
+
+
+
+
+
+
+最后的调优:
+1. 设置合理的batch时间, 最好的状态是,接收数据的速率等于程序处理数据的速率
+首先设置一个大一些的batch间隔,比如15s,等待程序一段时间后,随后在webui界面上查看batch的处理速度,再重新设置batch时间,比如6s
+2. 多个接收器并行的状态去接收数据
+通过网络接收数据,如Kafka,Flume,需要deserialized(反序列化)数据并存储在SparkStreaming中.如果数据接收成为系统的瓶颈,那么考虑一下并行化数据接收
+例如:程序要消费3个topic,每个topic单独占用一个接收器,提高了程序的总体吞吐量,最后将3个接收器的数据union合并成一个DStream对象
+val kafkaStreams = topics.split(",").map(topic => KafkaUtils.createStream(...))
+val allStream = streamingContext.union(kafkaStreams)
+3. 提高数据处理中的并行度
+在任何计算阶段如果并行任务的数量不够,使得集群资源可能未得到充分利用.也就是说设置task的数量少了,对于离线来说,task数量是core数量的2-3倍,但是对实时计算,不必关系这个比例,数据量很少时,减少task数量就可以了
+例如:设置任务并行度为20
+--conf spark.default.parallelism=20
+注:task的数量过多虽然可以充分利用集群资源,但是对于实时计算来说也会造成任务启动时间的开销
+4. 调节数据本地化等待时间
+task处理数据有5中类别:
+PROCESS_LOCAL:进程本地化，NODE_LOCAL:节点本地化，NO_PREF,RACK_LOCAL:机架本地化,ANY:数据和task可能在集群中的任何地方.
+例如:设置本地等待task启动时间设置为200ms
+--conf spark.locality.wait=200ms
+5. 对于实时程序来说,每个批次的数据量不大,对于内存要求不高,但是比较依赖core的数量.
+建议core的数量设置为奇数个,比如设置为3,5  每个executor内存有2g就可以了
+6. 数据序列化
+可以通过调优serialization formats(序列化格式)来减少数据序列化的开销.使用Kryo序列化可以减少CPU和内存开销,是java序列化性能的10倍.
+具体使用：
+conf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
+conf.registerKryoClasses(new Class[]{CategorySortKey.class})
+7. 开启背压模式
+如果在某个时间点数据量急剧上升,会导致程序压力上升,需要开启背压模式,本质上就是控制接收数据量,延迟消费的策略来使得程序稳定计算.
+--conf spark.streaming.backpressure.enabled=true
+8. 自动推断谨慎使用
+--conf spark.speculation=true
+9. Kafka partition 映射 RDD partition数量
+Kafka的分区数决定了你的并行度(我们假设你使用Direct Approach的模式集成)。为了获得更大的并行度，则需要进行一次repartition，而repartition 就意味着需要发生Shuffle,在流式计算里，可能会消耗掉的时间。
+10. SparkStreaming中设置checkpoint
+加上checkpoint具有failure机制,保证程序继续执行
+ ssc.checkpoint("hdfs路径")
+
+
+
+一些bug:
+1. OffsetOutOfRangeException异常
+如果消息体太大了，超过 fetch.message.max.bytes=1m,那么Spark Streaming会直接抛出OffsetOutOfRangeException异常，然后停止服务。其实就是消费的完成后 实际的消费数据量和预先估计的量不一致。
+fetch.message.max.bytes 设置大些
+例如:　fetch.message.max.bytes=3M
+
+
+
+
+
+
+注: 一些网站推荐 及  部分补充
+spark官网中文翻译: http://spark.apachecn.org/docs/cn/2.2.0/
+过往记忆网站:  https://www.iteblog.com/archives/category/spark/
+redis命令参考: http://doc.redisfans.com/
+
+
+
+在sparkStreaming连接kafka时:
+1. 最好采用Direct模式,这种模式可以不用创建receiver线程去实时接收数据,同时也避免的oom,必要时可以程序自己实现保存offset值,保证数据只消费一次;
+2. 由于sparkStreaming要接入多个topic, 最好采用并行接收数据
+val inputArray: Array[InputDStream[(String, String)]] = topics.split(",").map(topic => {
+      val topicSet: Set[String] = Set[String](topic)
+      KafkaUtils.createDirectStream[String, String, StringDecoder, StringDecoder](ssc, kafkaParams, topicSet)
+    })
+ssc.union(inputArray)
+
+
+
+
+关于redis:
+1. 结果数据的rowkey设计:
+[0,1]:[yyMMddhhmm]:platform:p:n:[pv,uv]
+2. 使用redis来判断uv是否存在:
+使用 redis 的set数据结构,   key=>yyMMdd:imei    value=>维度值
+sadd 方法=>将一个或多个member元素加入到集合key当中，已经存在于集合的member元素将被忽略,如果返回值为0时,表示此uv已经存在,否则为新增uv
+3. 设置redis数据的过期时间:
+expire 方法=>为给定 key 设置生存时间，当 key 过期时(生存时间为 0 )，它会被自动删除
+setex 方法=>将值 value 关联到 key ，并将 key 的生存时间设为 seconds (以秒为单位), 也就是在存储数据的时候直接设置了存活时间
+
+
+
+
+
+
+
+
+
+
