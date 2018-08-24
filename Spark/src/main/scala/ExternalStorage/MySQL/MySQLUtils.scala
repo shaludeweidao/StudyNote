@@ -101,4 +101,24 @@ object MySQLUtils{
     dataDF.write.options(properties).mode(SaveMode.Overwrite).format("jdbc").save()
   }
 
+
+
+
+  //一些常用sql
+  val createTableSQL =
+    s"""
+       |CREATE TABLE if not exists tableName (
+       |stat_date date comment '统计日期',
+       |field_1  varchar(50)  DEFAULT NULL  COMMENT '',
+       |
+       |field_2  TINYINT  DEFAULT '0'   COMMENT '',
+       |field_3  int(5) DEFAULT NULL    COMMENT '',
+       |field_4  bigint(20) DEFAULT 0   COMMENT '',
+       |
+       |field_5  double(20,4) DEFAULT '0.0000' COMMENT ''
+       |) ENGINE=Brighthouse  DEFAULT 　CHARSET=utf8  COMMENT=''
+     """.stripMargin
+  //mysql执行引擎:　　　　Brighthouse　　　　MyISAM　　　　
+
+
 }

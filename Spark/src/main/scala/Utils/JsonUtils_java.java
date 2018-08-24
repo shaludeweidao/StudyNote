@@ -21,7 +21,5 @@ public class JsonUtils_java {
         final List<Bean_1> bean_1s = JSON.parseArray(arrJson, Bean_1.class);
         System.out.println(bean_1s.size());
 
-
     }
-
 }

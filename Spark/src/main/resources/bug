@@ -4,3 +4,26 @@
 java.lang.NoSuchMethodError: io.netty.buffer.PooledByteBufAllocator.metric()Lio/netty/buffer/PooledB
 =>https://blog.csdn.net/m0_37637511/article/details/80364391
 如果包冲突,就会报 NoSuchMethodError 错误, 这次是io.netty模块出现的冲突,哪个包冲突就导入哪个包进来
+
+
+
+
+====================================SparkStreaming
+Caused by: java.lang.AssertionError: assertion failed: Ran out of messages before reaching ending offset 264251742 for topic topic partition 1 start 264245135. This should not happen, and indicates that messages may have been lost
+=>此处异常是由于kafka在读取指定offset日志时（此处是264245135到264251742），由于日志过大，导致日志的总大小超过 fetch.message.max.bytes的设定的值（默认为1024*1024），导致此错误。解决方法是，在kafka client的参数中加大fetch.message.max.bytes的值。
+比如：
+//使用direct模式读取kafka数据
+val kafkaParams = Map[String,String]("metadata.broker.list" -> brokers, "auto.offset.reset" -> "largest", "fetch.message.max.bytes"->(10L*1024*1024).toString)
+val topicsSet = topics.split(",").toSet
+val message: InputDStream[(String, String)] = KafkaUtils.createDirectStream[String, String, StringDecoder, StringDecoder](ssc, kafkaParams, topicsSet)
+
+
+
+
+
+
+
+
+
+
+

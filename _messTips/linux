@@ -1,5 +1,11 @@
+=>在线下载软件
 给linux系统在线下载软件, 例如下载logstash软件:
 wget https://artifacts.elastic.co/downloads/logstash/logstash-6.1.2.tar.gz
 
 
-
+=>数据同步
+rsync命令是一个远程数据同步工具，可通过LAN/WAN快速同步多台主机间的文件。rsync使用所谓的“rsync算法”来使本地和远程两个主机之间的文件达到同步，这个算法只传送两个文件的不同部分，而不是每次都整份传送，因此速度相当快。
+rsync  -rv   /opt/infobright/data/data_board/t_netflow_app_appDiao_open.*    work@10.126.88.149:/opt/infobright/data/data_board/
+参数:
+-r, --recursive 对子目录以递归模式处理
+-v, --verbose 详细模式输出。
