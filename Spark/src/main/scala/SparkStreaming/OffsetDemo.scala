@@ -1,6 +1,6 @@
 package SparkStreaming
 
-
+import org.apache.spark.rdd.RDD
 
 
 //SparkStreaming管理offset值Demo

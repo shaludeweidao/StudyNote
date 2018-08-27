@@ -12,6 +12,7 @@
         <module>Spark</module>
         <module>Language</module>
         <module>Hive</module>
+        <module>MessProject</module>
     </modules>
 
 

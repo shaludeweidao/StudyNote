@@ -1,0 +1,124 @@
+1、zookeeper诞生背景？
+分布式应用缺乏协调服务。
+
+2、zookeeper到底什么？
+协调分布式服务的服务。
+ZooKeeper is a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.
+All of these kinds of services are used in some form or another by distributed applications. Each time they are implemented there is a lot of work that goes into fixing the bugs and race conditions that are inevitable.
+Because of the difficulty of implementing these kinds of services, applications initially usually skimp on them ,which make them brittle in the presence of change and difficult to manage.
+Even when done correctly, different implementations of these services lead to management complexity when the applications are deployed.
+
+3、zookeeper的能做什么？？
+yarn、hbase、storm、doubble、kafka等应用在使用zookeeper
+集群管理:  管理命名空间, 管理配置信息
+
+zookeeper本身实现了高可用,才可以对分布式集群提供服务;
+本质上: zookeeper保证了集群中的共享数据的统一;
+
+4、zookeeper的架构图？？
+zk集群的节点数量是基数个，不推荐偶数个。zk的集群是否可用取决于正常节点数 >= (n+1)/2;方便于选举老大。
+leader()：监控小弟；负责数据的读写。leader监控所有小弟上的znode节点上的事件，一旦znode节点有发生变化，leader变获取变化的数据，然后保存到内存中，然后再持久化到本地，然后再通知其他的follower来同步数据(数据的写是异步)。
+follower：管理当前节点上的znode；还接受来自客户端的请求。
+client：负责读写请求。
+
+zk任然是主重架构，集群有且仅有一个leader，可以有多个follower。
+zk有快速选举机制：
+zk使用原子广播协议：快速同步数据
+
+一致性：
+弱一致性：
+强一致性：
+最终一致性：
+
+watch:事件，(具有一次性)
+Create/修改/删除/子节点创建事件/子节点修改事件
+
+ACL:
+CREATE：创建子节点的权限。
+READ：获取子节点数据和子节点列表的权限。
+WRITE：更新节点数据的权限。
+DELETE：删除子节点的权限。
+ADMIN：设置节点ACL的权限。
+
+特点：
+最终一致性
+可靠性
+原子性
+等待无关
+顺序性
+实时性
+
+
+5、zookeeper的数据模型？？
+zk数据模型像一个树形文件系统，每一个叶子节点称之为一个znode节点。由唯一的path来标识一个znode。
+每一个znode既是一个文件又是一个目录。
+zk和传统的文件系统区别：
+共同点：都可以存储数据
+不同：
+传统文件系统目标：用于存储大量的数据。
+zk的数据模型：只能存储小量数据
+传统文件系统有对应的文件和目录区分；而zk的数据模型没有文件和目录之分
+
+
+===============================  zookeeper的shell
+zkCli.sh -server hadoop02:2181
+ls /
+create -s [-e] /path data
+set /path data
+delete /name
+rmr /name
+quit
+
+zk创建znode节点有四种：
+普通(永久)节点：create name=zs
+普通序列化节点：create -s name00000000002=ls
+临时节点：create -e name=zs
+临时序列化节点:
+
+
+
+======================================== zookeeper集群搭建
+1. 下载zookeeper软件, 并把安装包上传到服务器
+2. 解压安装包    tar -zxvf  xxx  -C  xxx
+3. 配置环境变量    修改/etc/profile文件
+export  ZK_HOME=/app/*
+export  PATH=$PATH:$ZK_HOME/bin
+注: 将配置文件刷入内存, source
+4. 配置zk的配置文件
+tickTime=2000
+initLimit=10
+syncLimit=5
+dataDir=$ZK_HOME/appData
+clientPort=2181
+server.1=node01:2888:3888
+server.2=node02:2888:3888
+server.3=node03:2888:3888
+
+注: zk的默认配置文件名需要为 zoo.cfg , 则配置文件名修改为 zoo.cfg
+注: 两个参数必须配置  a. zookeeper的工作路径    b. 添加主机信息
+
+5. 创建zk的存储数据目录 $ZK_HOME/appData, 以及在此目录下创建标识文件myid
+mkdir  -p   $ZK_HOME/appData        #创建zk的工作目录
+echo id  >  $ZK_HOME/appData/myid      #创建myid文件, 用于保存此结点的机器id, 用作标识
+注: 配置每台机器上的myid文件,是为了保证每台服务器的唯一性,在zoo.cfg配置项dataDir所指定的地址下新建一个名字为myid的文件，文件中的内容对应为server.后面的数字
+6. 给各个没有配置zk的节点发送软件: 通过scp 命令, 之后按照上述步骤完善操作;
+7. 启动zk服务器验证：
+zkServer.sh  start/stop/status  [./conf/zk.cfg]
+
+
+
+参数说明:
+tickTime=2000
+initLimit=5
+syncLimit=2
+dataDir=zk软件的工作路径,也就是数据存储路径
+clientPort=2181
+#zk知道有那些节点, 其中server后的数字是节点的id, 2888为内部通信端口, 3888为投票端口
+server.1=newhadoop:2888:3888
+server.2=newhadoop01:2888:3888
+server.3=newhadoop02:2888:3888
+
+
+============================
+
+
