@@ -31,6 +31,7 @@
         <mysql.version>5.1.42</mysql.version>
         <fastjson.version>1.2.49</fastjson.version>
         <jedis.version>2.9.0</jedis.version>
+        <kafka.version>1.1.1</kafka.version>
     </properties>
 
 </project>
