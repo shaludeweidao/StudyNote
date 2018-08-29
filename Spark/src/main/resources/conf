@@ -29,10 +29,20 @@ spark.speculation.multiplier=1.3
 
 
 
+sparkConf.set("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
+sparkConf.set("spark.kryo.registrator", "com.nsfocus.statistics.util.KryoRegister")
+=>使用Kryo序列化
 
 
 
 
+sparkConf.set("spark.streaming.unpersist", "true")
+=>及时释放无用的RDD
+
+
+
+sparkConf.set("spark.shuffle.consolidateFiles", "true")
+=>合并shuffle中间文件
 
 
 =======================================

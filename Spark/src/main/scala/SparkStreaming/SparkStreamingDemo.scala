@@ -3,14 +3,15 @@ package SparkStreaming
 
 import java.{lang, util}
 
-
+import kafka.serializer.StringDecoder
 import org.apache.kafka.clients.consumer.{Consumer, ConsumerRecord}
 import org.apache.kafka.common.TopicPartition
 import org.apache.spark.SparkConf
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.streaming.dstream.{DStream, InputDStream}
-import org.apache.spark.streaming.kafka010.{ConsumerStrategies, ConsumerStrategy, KafkaUtils, LocationStrategies}
+import org.apache.spark.streaming.kafka.KafkaUtils
+//import org.apache.spark.streaming.kafka010.{ConsumerStrategies, ConsumerStrategy, KafkaUtils, LocationStrategies}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 import scala.collection.mutable.ArrayBuffer
@@ -50,15 +51,15 @@ object SparkStreamingDemo {
     val topicsSet = topics.split(",").toSet
 
     //kafka 0.8  写法
-//    val message: InputDStream[(String, String)] = KafkaUtils.createDirectStream(ssc, kafkaParams, topicsSet)
+    val message: InputDStream[(String, String)] = KafkaUtils.createDirectStream[String,String,StringDecoder,StringDecoder](ssc, kafkaParams, topicsSet)
 
     //kafka 0.10 写法
-    val kafkaparams = new util.HashMap[String,Object]()
-    val params: ConsumerStrategy[String, String] = ConsumerStrategies.Subscribe(topicsSet,kafkaParams)[String,String]
-    val value: InputDStream[ConsumerRecord[String, String]] = KafkaUtils.createDirectStream(ssc, LocationStrategies.PreferBrokers, params )
-    val message: DStream[(String,String)] = value.map(message => {
-      (message.key(),message.value())
-    })
+//    val kafkaparams = new util.HashMap[String,Object]()
+//    val params: ConsumerStrategy[String, String] = ConsumerStrategies.Subscribe(topicsSet,kafkaParams)[String,String]
+//    val value: InputDStream[ConsumerRecord[String, String]] = KafkaUtils.createDirectStream(ssc, LocationStrategies.PreferBrokers, params )
+//    val message: DStream[(String,String)] = value.map(message => {
+//      (message.key(),message.value())
+//    })
 
 
 
