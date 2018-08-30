@@ -12,6 +12,20 @@ class SafeDateUtils(val inputFormat:FastDateFormat, val outputFormat:FastDateFor
   val today = inputFormat.format(new Date())
 
   /**
+    *
+    * @return
+    */
+  def getCurrentDate(flag:Boolean):String = {
+    if (flag){
+      inputFormat.format(new Date())
+    }else{
+      outputFormat.format(new Date())
+    }
+
+  }
+
+
+  /**
     * 字符串 转化为 某天日期 String
     * @param days 相隔天数, 正数为传入日期之前的日期
     * @param inputFlag inputFlag == true  表示格式为inputFormat格式类型的,  否则 false 表示格式为 outputFomat格式类型的
@@ -132,4 +146,7 @@ object SafeDateUtils extends Serializable {
       new SafeDateUtils(inputFormat,outputFormat)
     }
   }
+
+
+
 }
