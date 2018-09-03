@@ -25,7 +25,7 @@ object MySQLUtils{
     * @param user
     * @param password
     */
-  def init(url:String, user:String, password:String): Unit ={
+  def setConf(url:String, user:String, password:String): Unit ={
     this.url = url
     this.user = user
     this.password = password

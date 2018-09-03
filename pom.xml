@@ -13,6 +13,7 @@
         <module>Language</module>
         <module>Hive</module>
         <module>MessProject</module>
+        <module>elk</module>
     </modules>
 
 
@@ -32,6 +33,7 @@
         <fastjson.version>1.2.49</fastjson.version>
         <jedis.version>2.9.0</jedis.version>
         <kafka.version>1.1.1</kafka.version>
+        <log4j.version>1.2.17</log4j.version>
     </properties>
 
 </project>

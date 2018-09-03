@@ -1,0 +1,45 @@
+6.x 之后版本,index比喻为数据库,type比喻为表 的说法有些偏差, 因为现在只允许一个index下存在一个type
+
+
+document的数据类型:
+字符串: text, keyword
+数值型: long, integer, short, byte, double, float, half_float, scaled_fooat
+布尔: boolean
+日期: date
+二进制: binary
+范围类型: integer_range, float_range, long_range, double_range, date_range
+
+
+每个文档有唯一的id标识(相当于数据库中的主键):
+自行指定,  es自动生成
+
+
+
+每个document都有元数据 (元数据,用于标注文档的相关信息)
+_index:文档所在的索引名
+_type:文档所在的类型名
+_id:文档唯一id
+_uid:组合id, 由_type 和 _id 组成 (6.x后 _type不再起作用,同 _id 一样)
+_source:文档的原始json数据, 可以从这里获取每个字段的内容
+_all:整合所有字段内容到该字段,默认禁用
+
+
+
+index相关
+index索引中存储具有相同结构的文档 Document, 每个索引都有自己的mapping定义, 用于定义字段名和类型
+一个集群可以有多个索引
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
