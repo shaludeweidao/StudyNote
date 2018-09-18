@@ -1,6 +1,7 @@
 package APIDemo
 
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.broadcast.Broadcast
+import org.apache.spark.sql.{Dataset, SparkSession}
 
 object Mess {
 
@@ -14,11 +15,22 @@ object Mess {
     val spark = SparkSession.builder().master("local[2]").appName("1").enableHiveSupport().getOrCreate()
     import spark.implicits._
 
+    val broadcast: Broadcast[Map[Int, String]] = spark.sparkContext.broadcast(Map((1,"name1"), (2,"name2")))
+
     List(1,2,3).toDF.explain()
 
-    val result  = List(
+    val value: Dataset[(Int, String)] = List(
       (1, "a"), (2, "b"), (3, "c"), (1, "aa")
     ).toDS()
+
+
+    value.mapPartitions(ite =>{
+      val tempMap = broadcast.value
+      ite.map(bean =>{
+        val name = tempMap.getOrElse(bean._1,"other")
+        (name,bean._2)
+      })
+    }).show()
 
 
 

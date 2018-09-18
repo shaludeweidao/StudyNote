@@ -1,4 +1,4 @@
-package ExternalStorage.Redis
+package ExternalStorage.redis
 
 import java.{lang, util}
 

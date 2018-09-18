@@ -1,14 +1,9 @@
-package ProjectDemo
+package ProjectDemo.mess
 
 import java.sql.{Connection, DriverManager}
 import java.text.SimpleDateFormat
-import java.util
 
-import org.apache.hadoop.hive.ql.udf.generic.GenericUDTF
-import org.apache.hadoop.hive.serde2.objectinspector.primitive.PrimitiveObjectInspectorFactory
-import org.apache.hadoop.hive.serde2.objectinspector.{ObjectInspector, ObjectInspectorFactory, StructObjectInspector}
-import org.apache.spark.sql._
-
+import org.apache.spark.sql.{DataFrame, SaveMode, SparkSession}
 
 //此类用于求留存的工具类
 object Test {
@@ -216,5 +211,3 @@ object Test {
     println("end...")
   }
 }
-
-

@@ -1,4 +1,4 @@
-package ExternalStorage.Hive
+package ExternalStorage.hive
 
 import org.apache.spark.sql.SparkSession
 

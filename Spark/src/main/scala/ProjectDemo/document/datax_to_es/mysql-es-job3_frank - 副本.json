@@ -1,0 +1,121 @@
+{
+"job": {
+		"content": [{
+			"reader": {
+				"name": "mysqlreader",
+				"parameter": {
+					"column": ["stat_date", "week_num", "week_begin", "week_end", "month_num", "business_name", "platform", "page_type", "source", "source1", "source1_name", "source2", "source2_name", "source3", "source3_name", "pv", "uv", "call_num", "call_suss"],
+					"connection": [{
+						"jdbcUrl": ["jdbc:mysql://10.126.84.131:5029/data_bi"],
+						"table": ["t_common_netflow_board_source_three_400"]
+					}],
+					"password": "ecdata@0914",
+					"username": "task"
+				}
+			},
+			"writer": {
+				"name": "elasticsearchwriter",
+				"parameter": {
+					"accessId": "123",
+                 			"accessKey": "123",
+					"endpoint": "http://10.126.88.161:9200",
+					"index": "t_common_netflow_board_source_three_400",
+					"type": "t_common_netflow_board_source_three_400",
+					"cleanup": false,
+					"settings": {
+						"index": {
+							"number_of_shards": 4,
+							"number_of_replicas": 0
+						}
+					},
+					"discovery": false,
+					"batchSize": 1000,
+					"splitter": ",",
+					"column": [{
+							"name": "stat_date",
+							"type": "date",
+							"format": "yyyy-MM-dd HH:mm:ss"
+						},
+						{
+							"name": "week_num",
+							"type": "keyword"
+						},
+						{
+							"name": "week_begin",
+							"type": "keyword"
+						},
+						{
+							"name": "week_end",
+							"type": "keyword"
+						},
+						{
+							"name": "month_num",
+							"type": "keyword"
+						},
+						{
+							"name": "business_name",
+							"type": "keyword"
+						},
+						{
+							"name": "platform",
+							"type": "keyword"
+						},
+						{
+							"name": "page_type",
+							"type": "keyword"
+						},
+						{
+							"name": "source",
+							"type": "keyword"
+						},
+						{
+							"name": "source1",
+							"type": "keyword"
+						},
+						{
+							"name": "source1_name",
+							"type": "keyword"
+						},
+						{
+							"name": "source2",
+							"type": "keyword"
+						},
+						{
+							"name": "source2_name2",
+							"type": "keyword"
+						},
+						{
+							"name": "source3",
+							"type": "keyword"
+						},
+						{
+							"name": "source3_name",
+							"type": "keyword"
+						},
+						{
+							"name": "pv",
+							"type": "long"
+						},
+						{
+							"name": "uv",
+							"type": "long"
+						},
+						{
+							"name": "call_num",
+							"type": "long"
+						},
+						{
+							"name": "call_suss",
+							"type": "long"
+						}
+					]
+				}
+			}
+		}],
+		"setting": {
+			"speed": {
+				"channel": "10"
+			}
+		}
+	}
+}

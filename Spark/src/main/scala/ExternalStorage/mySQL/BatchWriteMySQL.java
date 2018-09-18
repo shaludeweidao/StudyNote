@@ -1,4 +1,4 @@
-package ExternalStorage.MySQL;
+package ExternalStorage.mySQL;
 
 public class BatchWriteMySQL {
 

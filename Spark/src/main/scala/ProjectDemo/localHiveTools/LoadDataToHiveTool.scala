@@ -1,4 +1,4 @@
-package ExternalStorage.Hive
+package ProjectDemo.localHiveTools
 
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -24,8 +24,8 @@ object LoadDataToHiveTool {
   //设置必要变量    数据库名,表名,分区字段
   var databaseName = "hdp_ubu_wuxian_defaultdb"
   var tableName = "tb_app_action"
-//  var partitionFieldName = "dt"
-//  var partitionDate = "20180825"
+  var partitionFieldName = "dt"
+  var partitionDate = "20180825"
   val fullTableName = s" ${databaseName}.${tableName}"
 
   //注从集群中获取少量数据,并且加载到本地derby中,   本地下载的hive数据目录:  D:\loadDownHiveData
@@ -37,13 +37,13 @@ object LoadDataToHiveTool {
 
 
 
-    val fatherPahtName = "20180827"  //数据源的父目录位置
+    val fatherPahtName = "20180825"  //数据源的父目录位置
     var inputPath = s"D:\\loadDownHiveData\\${tableName}\\" + fatherPahtName
 
     var map = scala.collection.mutable.Map[String,String]()
     map += ("header"->"true")       //是否有标题行
     map += ("delimiter"->"\t")      //分隔符，默认为逗号
-    map += ("inferSchema"->"false")    //是否自动推到内容的类型
+    map += ("inferSchema"->"true")    //是否自动推到内容的类型
     val df = spark.read.options(map).csv(inputPath).cache()
     df.show( 50, false )   //打印数据
 //    df.select("dt").show(500)
@@ -54,13 +54,13 @@ object LoadDataToHiveTool {
     spark.sql("set hive.exec.dynamic.partition=true")    //启动动态分区插入数据
     df.createOrReplaceTempView("sourceDataTable")
     //动态插入数据     sql中的  partition()内放入  数据源表中已有的字段名称
-    val sql_insert = s" insert into table  ${fullTableName}   partition( dt )   select  *   from   sourceDataTable   "
-    spark.sql(sql_insert)       //真正执行sql去处理
+    val sql_insert = s" insert overwrite table  ${fullTableName}   partition( dt )   select  *   from   sourceDataTable   "
+//    spark.sql(sql_insert)       //真正执行sql去处理
 
 
 
     //使用代码的方式插入数据
-//    df.coalesce(1).write.partitionBy(s"${partitionFieldName}").mode(SaveMode.Overwrite).saveAsTable(s"${fullTableName}")
+    df.coalesce(1).write.partitionBy(s"${partitionFieldName}").mode(SaveMode.Overwrite).saveAsTable(s"${fullTableName}")
 
 
 

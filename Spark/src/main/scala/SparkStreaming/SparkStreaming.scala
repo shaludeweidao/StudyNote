@@ -1,6 +1,6 @@
 package main.scala.SparkStreaming
 
-import ExternalStorage.MySQL.MySQLUtils
+import ExternalStorage.mySQL.MySQLUtils
 import Utils.SafeDateUtils
 import kafka.serializer.StringDecoder
 import org.apache.log4j.{Level, Logger}

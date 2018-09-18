@@ -1,4 +1,4 @@
-package ExternalStorage.Hive
+package ExternalStorage.hive
 
 import java.text.SimpleDateFormat
 import java.util.Date
